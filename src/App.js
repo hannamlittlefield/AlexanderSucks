@@ -1,5 +1,7 @@
 import './App.css';
+import Navbar from './Navbar';
 import Projects from './Projects';
+
 
 function App() {
   return (
@@ -8,6 +10,7 @@ function App() {
         <p>
         <marquee behavior="slide" direction="down" scrollamount="5">Hanna Littlefield</marquee>
         </p>
+        <Navbar/>
       </header>
       <Projects/>
     </div>
