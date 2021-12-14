@@ -7,9 +7,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function Projects(){
     return(
         <div align="center" className="Projects">
-            <div class="hexagon image1"/>
-            <div class="hexagon image1"/>
-            <div class="hexagon image1"/>
+        <img className="projImg" src="https://i.postimg.cc/c45wtbww/BQProject.jpg"/><br/>
+                <a href="https://codepen.io/hannamlittlefield/pen/MWJLPgx" target="_blank">CodePen</a> 
+                <a href="https://github.com/hannamlittlefield/BQSceneSelector/tree/master/BQSceneGen/bq-app/src" target="_blank">Github</a>
+            <div class="hexagon"/>
+            <div class="hexagon"/>
         </div>
     )
 }
