@@ -1,6 +1,8 @@
 import React from "react";
 import './App.css';
+import {Link} from 'react-router-dom'
 import GitLink from "./GithubLink";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Projects(){
     return(
