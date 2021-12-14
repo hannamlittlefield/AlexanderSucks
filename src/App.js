@@ -1,9 +1,10 @@
+import { render } from '@testing-library/react';
 import './App.css';
 import Navbar from './Navbar';
 import Projects from './Projects';
 
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -17,4 +18,3 @@ function App() {
   );
 }
 
-export default App;
