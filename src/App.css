@@ -8,23 +8,23 @@ a {
   padding: 5px;
 }
 .App-header {
-  background-color: #7c7c7c;
+  background-color: #ede7f6;
   top: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: 'Fredericka the Great';
   font-size: calc(30px + 2vmin);
-  color: white;
+  color: #000000;
 }
 
 .Projects{
-  background-color: #92dce5;
+  background-color: #e2e2e2;
   padding-top: 15px;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #bbb5c3;
 }
 
 .projImg{
@@ -35,6 +35,12 @@ a {
 .gitImage{
   width: 50px;
   height: 50px;
+}
+
+.subtext{
+  font-size: 25px;
+  font-family: arial;
+  margin-top: -15px;
 }
 
 #nav {
@@ -51,7 +57,7 @@ a {
 		display: block;
 		padding: 8px 15px;
 		text-decoration: none;
-		color: #52dee5;
+		color: #bbb5c3;
 		border-right: 1px solid #ccc; }
 
 #nav li a {
@@ -59,5 +65,5 @@ a {
 		padding: 8px 15px;
 		text-decoration: none;
 		font-weight: bold;
-		color: #52dee5;
+		color: #bbb5c3;
 		border-right: 1px solid #ccc; }
