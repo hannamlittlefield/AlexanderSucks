@@ -1,7 +1,6 @@
 import { render } from '@testing-library/react';
 import './App.css';
 import Navbar from './Navbar';
-import AboutMe from './AboutMe'
 import Projects from './Projects';
 
 
@@ -15,7 +14,7 @@ export default function App() {
         </p>
         <Navbar/>
       </header>
-      <AboutMe/>
+      <Projects/>
     </div>
   );
 }

@@ -21,6 +21,7 @@ a {
 .Projects{
   background-color: #e2e2e2;
   padding-top: 15px;
+  height: 100vh;
 }
 
 .App-link {
