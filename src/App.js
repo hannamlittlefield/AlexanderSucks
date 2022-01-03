@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react';
 import './App.css';
-import Navbar from './Navbar';
+import NavTopBar from './Navbar';
 import Projects from './Projects';
 
 
@@ -12,7 +12,7 @@ export default function App() {
         <marquee behavior="slide" direction="down" scrollamount="5">Hanna Littlefield</marquee><br/>
         <p className='subtext'>Software Developer</p>
         </p>
-        <Navbar/>
+        <NavTopBar/>
       </header>
       <Projects/>
     </div>
