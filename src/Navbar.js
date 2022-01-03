@@ -6,8 +6,6 @@ import {
   Link
 } from "react-router-dom";
 import About from "./AboutMe";
-import Projects from "./Projects";
-import Contact from './Contact';
 
 export default function Navbar(){
     return (
