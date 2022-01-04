@@ -25,6 +25,12 @@ a {
   height: 100vh;
 }
 
+.About{
+  background-color: #e2e2e2;
+  padding-top: 15px;
+  height: 100vh;
+}
+
 .App-link {
   color: #bbb5c3;
 }
@@ -46,7 +52,7 @@ a {
 }
 
 .nav {
-	font-size: 30px; 
+	font-size: 40px; 
 }
 
 .nav li {

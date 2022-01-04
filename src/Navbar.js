@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function NavTopbar(){
     return (
       <div style={{ display: 'block', width: 700, padding: 30 }}>
-      <Navbar bg="#ede7f6" className='nav'>
+      <Navbar bg="#ede7f6" className='nav' fixed='top'>
         <Link to="/home">Home</Link>
         <Link to="/projects">Projects</Link>
         <Link to="/about">About</Link>
