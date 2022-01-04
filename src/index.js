@@ -1,13 +1,23 @@
 import React from 'react';
 import { render } from "react-dom";
-import { BrowserRouter } from "react-router-dom";
+import {
+  BrowserRouter,
+  Routes,
+  Route
+} from "react-router-dom";
 import './index.css';
 import App from './App';
+import Projects from './Projects'
+import Contact from './Contact'
 
 const rootElement = document.getElementById("root");
 render(
   <BrowserRouter>
-    <App />
+    <Routes>
+    <Route path="/" element={<App />} />
+    <Route path="projects" element={<Projects />} />
+    <Route path="contact" element={<Contact />} />
+    </Routes>
   </BrowserRouter>,
   rootElement
 );
