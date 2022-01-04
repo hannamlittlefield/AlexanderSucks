@@ -2,7 +2,6 @@ import React from "react";
 import './App.css';
 import projectpic from './img/BQProject.JPG'
 import { FaGithub, FaCodepen } from "react-icons/fa";
-import { Link } from "react-router-dom";
 
 export default function Projects(){
     return(
