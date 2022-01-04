@@ -1,4 +1,4 @@
-import { render } from '@testing-library/react';
+import {Outlet} from 'react-router-dom'
 import './App.css';
 import NavTopBar from './Navbar';
 import Projects from './Projects';
@@ -14,6 +14,7 @@ export default function App() {
         </p>
         <NavTopBar/>
       </header>
+      <Outlet />
       <Projects/>
     </div>
   );
