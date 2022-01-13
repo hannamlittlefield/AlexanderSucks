@@ -7,6 +7,7 @@ export default function Projects(){
     return(
         <div align="center" className="Projects">
         <img className="projImg" src={projectpic} alt="A screen capture of my scene generator project"/><br/>
+
                 <FaCodepen/><a href="https://codepen.io/hannamlittlefield/pen/MWJLPgx" target="_blank" rel="noreferrer"><FaGithub/></a>
                 <FaGithub/><a href="https://github.com/hannamlittlefield/BQSceneSelector/tree/master/BQSceneGen/bq-app/src" target="_blank" rel="noreferrer">Github</a>
         </div>
