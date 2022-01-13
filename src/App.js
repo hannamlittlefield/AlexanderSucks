@@ -14,7 +14,7 @@ export default function App() {
     <div className="App">
       <header className="App-header">
         <p>
-        <marquee behavior="slide" direction="down" scrollamount="5">Hanna Littlefield</marquee><br/>
+        Hanna Littlefield<br/>
         <p className='subtext'>Software Developer</p>
         </p>
         <NavTopBar/>
