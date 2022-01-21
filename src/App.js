@@ -21,9 +21,6 @@ export default function App() {
       </header>
       <Outlet />
     </div>
-    <div>
-    <Footer>Hanna Littlefield</Footer>
-    </div>
   );
 }
 
