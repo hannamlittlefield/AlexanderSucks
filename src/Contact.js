@@ -9,6 +9,6 @@ export default function Contact(){
         <FaLinkedin/><a href = 'https://www.linkedin.com/in/hannamlittlefield/'>LinkedIn</a><br/>
         <FaGithub/><a href = 'https://github.com/hannamlittlefield'>GitHub</a><br/>
         <FaCodepen/><a href = 'https://codepen.io/hannamlittlefield'>Codepen</a>
-        </div>             
+        </div>
     )
 }
