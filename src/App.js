@@ -4,10 +4,10 @@ import NavTopBar from './Navbar';
 import { Container } from 'react-bootstrap';
 import styled from 'styled-components';
 import Footer from './Footer';
-const StyledCont = styled(Container)`
+/*const StyledCont = styled(Container)`
 background-color: #e2e2e2;
 height: 100vh;
-`
+`*/
 
 export default function App() {
   return (
