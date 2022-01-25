@@ -25,6 +25,20 @@ a {
   background-color: #e2e2e2;
   padding-top: 15px;
   height: 100vh;
+  font-family: arial;
+}
+
+.Projects a:link{
+  text-decoration: none;
+  color:black;
+}
+
+.Projects a:visited{
+  color: black;
+}
+
+.Projects a:hover{
+  color:#ce93d8;
 }
 
 .About{
