@@ -1,4 +1,5 @@
 import React from 'react'
+import resume from './resume.pdf'
 
 export default function About(){
     return(
@@ -10,7 +11,7 @@ export default function About(){
 
             <p>I am passionate about my fur-family, reading a lot of b ooks, to-do lists, running obscenely long distances, creating things with my hands, and solving puzzles. </p>
 
-    <p>You can learn more about my skills by checking out my resume!</p>
+    <p>You can learn more about my skills by checking out my <a href={resume}>resume</a>!</p>
         </div>
         </div>
     )
