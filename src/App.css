@@ -45,6 +45,8 @@ a {
   padding-top: 15px;
   height: 100vh;
   font-family: arial;
+  width: 50vw;
+  text-align: justify;
 }
 
 .Contact{
