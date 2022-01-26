@@ -63,6 +63,12 @@ a {
   color: black;
 }
 
+.Projects p{
+  width: 50vw;
+  background-color: #9fa8da;
+  padding: 5px;
+  border-radius: 10%;
+}
 .Projects a:hover{
   color:#ce93d8;
 }

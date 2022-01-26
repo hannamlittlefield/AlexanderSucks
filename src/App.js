@@ -20,7 +20,6 @@ export default function App() {
         <NavTopBar/>
       </header>
       <Outlet />
-      <div className = "typewriter"><h1>Hi! I'm Hanna.</h1></div>
       <Footer/>
     </div>
   );
