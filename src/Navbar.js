@@ -10,6 +10,7 @@ const StyledNavBar = styled(Navbar)`
 const StyledLink = styled(Link)`
   color: black;
   text-decoration: none;
+  font-family: 'Lobster', cursive;
   &:hover {
       color: #9fa8da;
       -webkit-transition: color .5s linear;
