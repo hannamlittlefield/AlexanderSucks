@@ -24,9 +24,8 @@ export default function NavTopbar(){
     return (
       <div style={{ display: 'block', width: 700, padding: 30 }}>
       <StyledNavBar bg="#ede7f6" className='nav' fixed='top'>
-        <StyledLink to="/">Home</StyledLink>
+        <StyledLink to="/about">Home</StyledLink>
         <StyledLink to="/projects">Projects</StyledLink>
-        <StyledLink to="/about">About</StyledLink>
         <StyledLink to="/contact">Contact</StyledLink>
       </StyledNavBar>
     </div>
