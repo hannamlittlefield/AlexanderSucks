@@ -4,13 +4,14 @@ import BQphoto from './img/BQProject.JPG'
 import { FaGithub, FaCodepen, } from "react-icons/fa";
 import {SiReplit} from "react-icons/si";
 import UltraApp from './UltraCrewApp.mov'
+import Image from 'react-bootstrap/Image'
 
 export default function Projects(){
     return(
         <div align="center" className="Projects">
             <h2>Beqanna Scene Generator</h2>
             <p>
-            <img className="projImg" src={BQphoto} alt="A screen capture of my scene generator project"/><br/>
+            <Image className='projimage' src={BQphoto} alt="A screen capture of my scene generator project" fluid rounded/><br/>
                 <a href="https://codepen.io/hannamlittlefield/pen/MWJLPgx" target="_blank" rel="noreferrer"><FaCodepen/>Codepen</a>
                 <a href="https://github.com/hannamlittlefield/BQSceneSelector/tree/master/BQSceneGen/bq-app/src" target="_blank" rel="noreferrer"><FaGithub/>Github</a><br/><br/>
                     The Beqanna Scene Generator was one of my first personal projects. It is a simple random choice generator based on given inputs. It was built with vanilla Javascript.</p>
