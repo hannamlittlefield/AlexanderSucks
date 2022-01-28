@@ -7,13 +7,14 @@ import Container from 'react-bootstrap/Container'
 
 export default function About(){
     return(
-        <Container fluid="md">
+        <div className='About'>
+        <Container>
             <Row>
-                <Col xs>
+                <Col md="auto">
                     <img className="projImg" src={ProfPic} alt="A photo of Hanna looking off to the side laughing"/>
                 </Col>
                 <Col>
-                    <div align="center" className="About"> 
+                    <div className='abouttext'> 
                         <p>Hi! I'm Hanna - a self taught programmer enjoying life in Massachusetts. After graduating with a business management degree and spending eight years in the field, I left the business world behind and began to pursue my passion for coding.</p>
                         
                         <p>Through various online resources and routine work with a mentor - I have taught myself a variety of languages, libraries, and web development skills. I always enjoy a challenge, and have the ability to teach myself nearly anything that I put my mind to.</p> 
@@ -24,11 +25,8 @@ export default function About(){
                     </div>
                 </Col>
             </Row>
-            <Row>
-    <Col>1 of 3</Col>
-    <Col xs={5}>2 of 3 (wider)</Col>
-    <Col>3 of 3</Col>
-  </Row>
         </Container>
+    </div>
+        
     )
 }

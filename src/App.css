@@ -63,10 +63,15 @@ h2{
 
 .About{
   padding-top: 15px;
+  background-color: #e2e2e2;
   font-family: arial;
-  width: 50vw;
   text-align: justify;
   min-height: 400px;
+}
+
+.abouttext{
+  margin-top: 40px;
+  padding: auto;
 }
 
 .Contact a:link{
