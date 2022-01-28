@@ -18,7 +18,7 @@ export default function Projects(){
             
             <h2>Ultra Crew App</h2>
                 <p>
-            <video controls src={UltraApp} type="video/mp4" height= '400px'/><br/>
+            <video controls src={UltraApp} type="video/mp4" height= '400px' maxWidth='480px'/><br/>
             <a href="https://github.com/GreenField-Org/ultracrewmobile" target="_blank" rel="noreferrer" alt="a short video showing navigation through the Ultra Crew App"><FaGithub/>Github</a><br/><br/>
                 The Ultra Crew App is a current work in progress - and is being built by a team of two. It is used to track information collected at endurance racing aid stations - such as food, water, etc.
 
@@ -26,7 +26,7 @@ export default function Projects(){
                 </p>
             <h2>Exercise Tracker</h2>
                 <p>
-                    <img className="projImg" src="" alt="A screen capture of my exercise tracker project"/><br/><br/>
+                    <Image className="projImg" src="" alt="A screen capture of my exercise tracker project" fluid rounded/><br/><br/>
                 The Exercise Tracker app is a simple application where you can create a user and track exercise activities. You may also look at a user exercise log by calling to an API. 
                     It is built with Javascript and uses MongoDB as a database. 
                 </p>
