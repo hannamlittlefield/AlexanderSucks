@@ -30,6 +30,7 @@ export default function Projects(){
                 The Exercise Tracker app is a simple application where you can create a user and track exercise activities. You may also look at a user exercise log by calling to an API. 
                     It is built with Javascript and uses MongoDB as a database. 
                 </p>
+                <br/>
                 </div>
     )
 }
