@@ -27,10 +27,6 @@ const StyledLink = styled(Link)`
 export default function NavTopbar(){
     return (
       <div style={{ display: 'block', width: 700, padding: 30 }}>
-        <Navbar.Brand>
-         <p className='navtitle'>Hanna Littlefield</p><br/>
-          <p className='subtext'>Software Developer</p>
-        </Navbar.Brand>
       <StyledNavBar bg="#ede7f6" className='nav' fixed='top'>
         <StyledLink to="/about">Home</StyledLink>
         <StyledLink to="/projects">Projects</StyledLink>

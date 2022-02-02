@@ -15,6 +15,10 @@ export default function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <div>
+      <p className='navtitle'>Hanna Littlefield</p>
+      <p className='subtext'>Software Developer</p>
+      </div>
         <NavTopBar/>
       </header>
       <Outlet />
