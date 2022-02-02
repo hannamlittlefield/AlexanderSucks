@@ -18,7 +18,7 @@ export default function Projects(){
             
             <h2>Ultra Crew App</h2>
                 <p>
-            <video controls src={UltraApp} type="video/mp4" height= '400px' maxWidth='480px'/><br/>
+            <video width="100%" controls src={UltraApp} type="video/mp4" height= '400px' maxWidth='480px'/><br/>
             <a href="https://github.com/GreenField-Org/ultracrewmobile" target="_blank" rel="noreferrer" alt="a short video showing navigation through the Ultra Crew App"><FaGithub/>Github</a><br/><br/>
                 The Ultra Crew App is a current work in progress - and is being built by a team of two. It is used to track information collected at endurance racing aid stations - such as food, water, etc.
 

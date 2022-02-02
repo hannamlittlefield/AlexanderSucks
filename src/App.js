@@ -16,8 +16,8 @@ export default function App() {
     <div className="App">
       <header className="App-header">
       <div>
-      <p className='navtitle'>Hanna Littlefield</p>
-      <p className='subtext'>Software Developer</p>
+        <p className='navtitle'>Hanna Littlefield</p>
+        <p className='subtext'>Software Developer</p>
       </div>
         <NavTopBar/>
       </header>
