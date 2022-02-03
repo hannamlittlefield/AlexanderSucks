@@ -2,8 +2,9 @@ import React from 'react'
 import resume from './resume.pdf'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import ProfPic from './ProfilePhoto.jpg'
+import ProfPic from './img/ProfilePhoto.jpg'
 import Container from 'react-bootstrap/Container'
+
 
 export default function About(){
     return(
