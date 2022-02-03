@@ -1,8 +1,6 @@
 import {Outlet} from 'react-router-dom'
 import './App.css';
 import NavTopBar from './Navbar';
-import { Container } from 'react-bootstrap';
-import styled from 'styled-components';
 import Footer from './Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 

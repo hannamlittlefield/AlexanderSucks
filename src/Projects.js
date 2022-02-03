@@ -1,6 +1,7 @@
 import React from "react";
 import './App.css';
 import BQphoto from './img/BQProject.JPG'
+import TrackerPhoto from './img/exercisetracker.JPG'
 import { FaGithub, FaCodepen, } from "react-icons/fa";
 import {SiReplit} from "react-icons/si";
 import UltraApp from './UltraCrewApp.mov'
@@ -26,9 +27,10 @@ export default function Projects(){
                 </p>
             <h2>Exercise Tracker</h2>
                 <p>
-                    <Image className="projImg" src="" alt="A screen capture of my exercise tracker project" fluid rounded/><br/><br/>
+                    <Image className="projImg" src={TrackerPhoto} alt="A screen capture of my exercise tracker project" fluid rounded/><br/>
+                    <a href="https://replit.com/@hannamlittlefie/boilerplate-project-exercisetracker#.replit" target="_blank" rel="noreferrer"><SiReplit/>Replit</a><br/>
                 The Exercise Tracker app is a simple application where you can create a user and track exercise activities. You may also look at a user exercise log by calling to an API. 
-                    It is built with Javascript and uses MongoDB as a database. 
+                    It is built with Javascript and uses MongoDB as a database. <br/>
                 </p>
                 <br/>
                 </div>

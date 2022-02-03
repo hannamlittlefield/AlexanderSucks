@@ -14,6 +14,7 @@ const StyledLink = styled(Link)`
   text-decoration: none;
   font-family: 'Lobster', cursive;
   margin-left: 30px;
+  sticky: top;
   &:hover {
       color: #9fa8da;
       -webkit-transition: color .5s linear;

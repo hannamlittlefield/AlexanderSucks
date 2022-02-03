@@ -11,7 +11,7 @@ export default function About(){
         <Container>
             <Row>
                 <Col md="auto">
-                    <img className="projImg" src={ProfPic} alt="A photo of Hanna looking off to the side laughing"/>
+                    <img className="projImg" src={ProfPic} alt="Hanna looking off to the side laughing"/>
                 </Col>
                 <Col>
                     <div className='abouttext'> 
