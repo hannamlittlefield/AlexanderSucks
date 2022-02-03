@@ -63,11 +63,11 @@ h2{
 }
 
 .About{
-  padding-top: 15px;
+  padding-top: 130px;
   background-color: #e2e2e2;
   font-family: arial;
   text-align: justify;
-  min-height: 85vh;
+  min-height: 96vh;
 }
 
 .abouttext{
@@ -83,8 +83,8 @@ h2{
 .Contact{
   background-color: #e2e2e2;
   font-family: arial;
-  padding-top: 15px;
-  min-height: 85vh;
+  padding-top: 125px;
+  min-height: 96vh;
 }
 
 .Contact a:visited{
