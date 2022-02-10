@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9452cd40.chunk.css",
+    "main.js": "/static/js/main.b420d1b8.chunk.js",
+    "main.js.map": "/static/js/main.b420d1b8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.67bcb4ff.js",
+    "runtime-main.js.map": "/static/js/runtime-main.67bcb4ff.js.map",
+    "static/css/2.383c0125.chunk.css": "/static/css/2.383c0125.chunk.css",
+    "static/js/2.0dd0a627.chunk.js": "/static/js/2.0dd0a627.chunk.js",
+    "static/js/2.0dd0a627.chunk.js.map": "/static/js/2.0dd0a627.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.383c0125.chunk.css.map": "/static/css/2.383c0125.chunk.css.map",
+    "static/css/main.9452cd40.chunk.css.map": "/static/css/main.9452cd40.chunk.css.map",
+    "static/js/2.0dd0a627.chunk.js.LICENSE.txt": "/static/js/2.0dd0a627.chunk.js.LICENSE.txt",
+    "static/media/BQProject.ac06ad0a.JPG": "/static/media/BQProject.ac06ad0a.JPG",
+    "static/media/ProfilePhoto.90ea6907.jpg": "/static/media/ProfilePhoto.90ea6907.jpg",
+    "static/media/UltraCrewApp.dcfbac31.mov": "/static/media/UltraCrewApp.dcfbac31.mov",
+    "static/media/exercisetracker.601302e2.JPG": "/static/media/exercisetracker.601302e2.JPG",
+    "static/media/App.css": "/static/media/flowerbg.481cdea2.png",
+    "static/media/resume.9bcd7ded.pdf": "/static/media/resume.9bcd7ded.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.67bcb4ff.js",
+    "static/css/2.383c0125.chunk.css",
+    "static/js/2.0dd0a627.chunk.js",
+    "static/css/main.9452cd40.chunk.css",
+    "static/js/main.b420d1b8.chunk.js"
+  ]
+}
