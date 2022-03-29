@@ -77,6 +77,12 @@ h1{
   color:#ce93d8;
 }
 
+#projparagraph{
+  width: 50vw;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .About{
   padding-top: 130px;
   background-color: #e2e2e2;

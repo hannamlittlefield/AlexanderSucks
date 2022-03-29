@@ -10,6 +10,9 @@ import Image from 'react-bootstrap/Image'
 export default function Projects(){
     return(
         <div align="center" className="Projects">
+        <div id="projparagraph">
+            The following is collection of projects I've built throughout my time learning to program using various tech stacks. Many of my projects are geared towards the things I love - such as fitness, running, and creativity.
+        </div>
             <h2>Beqanna Scene Generator</h2>
             <p>
             <Image className='projimage' src={BQphoto} alt="A screen capture of my scene generator project" fluid rounded/><br/>
