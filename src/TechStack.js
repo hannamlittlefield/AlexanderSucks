@@ -1,6 +1,6 @@
 import React from 'react';
 import {FaReact, FaNodeJs, FaGithub, FaBootstrap, FaWordpress} from 'react-icons/fa'
-import { DiJavascript1 } from "react-icons/di";
+import { DiJavascript1, DiVisualstudio } from "react-icons/di";
 import { SiMongodb } from "react-icons/si";
 
 
@@ -11,7 +11,7 @@ export default function TechStack(){
         <div className="techdiv">
             <div class="techicon">
                 <FaReact/>
-                <p>React</p>
+                <p>React</p> 
             </div>
             <div class="techicon">
                 <DiJavascript1/>
@@ -37,6 +37,10 @@ export default function TechStack(){
                 <FaWordpress/>
                 <p>Wordpress</p>
             </div>
+            <div class="techicon">
+                <DiVisualstudio/>
+                <p>VS Code</p>
+        </div>
         </div>
     </div>
     )

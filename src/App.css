@@ -169,10 +169,11 @@ h1{
 
 .techdiv{
   text-align: center;
-  width: 200px;
+  margin: auto;
+  width: 500px;
   font-size: 40px;
   display: grid;
-  grid-template-columns: repeat(3, 150px);
+  grid-template-columns: repeat(4, 120px);
   gap: 5px;
   grid-auto-rows: minmax(100px, auto);
 }
@@ -202,7 +203,7 @@ h1{
 #loader {
   border: 12px solid #f3f3f3;
   border-radius: 50%;
-  border-top: 12px solid #444444;
+  border-top: 12px solid #9fa8da;
   width: 70px;
   height: 70px;
   animation: spin 1s linear infinite;
