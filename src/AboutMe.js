@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import ProfPic from './img/ProfilePhoto.jpg'
 import Container from 'react-bootstrap/Container'
+import TechStack from './TechStack'
 
 
 export default function About(){
@@ -26,6 +27,8 @@ export default function About(){
                     </div>
                 </Col>
             </Row>
+            <h1>Tech Stack</h1>
+            <TechStack/>
         </Container>
     </div>
         
