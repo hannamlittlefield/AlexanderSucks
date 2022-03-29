@@ -27,8 +27,8 @@ export default function About(){
                     </div>
                 </Col>
             </Row>
-            <TechStack/>
         </Container>
+        <TechStack/>
     </div>
         
     )

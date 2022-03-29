@@ -7,7 +7,7 @@ import { SiMongodb } from "react-icons/si";
 
 export default function TechStack(){
     return(
-        
+        <div><h1 align="center">Tech Stack</h1>
         <div className="techdiv">
             <div class="techicon">
                 <FaReact/>
@@ -38,5 +38,6 @@ export default function TechStack(){
                 <p>Wordpress</p>
             </div>
         </div>
+    </div>
     )
 }
