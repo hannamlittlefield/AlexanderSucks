@@ -9,8 +9,14 @@ export default function TechStack(){
     return(
         <div className="techdiv">
         <h1>Tech Stack</h1>
-            <FaReact/>
-            <DiJavascript1/>
+            <div class="techicon">
+                <FaReact/>
+                <p>React</p>
+            </div>
+            <div class="techicon">
+                <DiJavascript1/>
+                <p>Javascript</p>
+            </div>
             <SiMongodb/>
             <FaNodeJs/>
             <FaGithub/>

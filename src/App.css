@@ -156,6 +156,19 @@ h1{
 .techdiv{
   text-align: center;
   font-size: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.techicon{
+  width: 100px;
+  font-size: 40px;
+  font-family: 'Francois One', sans-serif;
+}
+.techicon p{
+  font-size: 25px;
 }
 
 .footer{
