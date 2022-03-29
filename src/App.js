@@ -12,11 +12,7 @@ height: 100vh;
 export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      <div>
-        <p className='navtitle'>Hanna Littlefield</p>
-        <p className='subtext'>Software Developer</p>
-      </div>
+      <header>
         <NavTopBar/>
       </header>
       <Outlet />

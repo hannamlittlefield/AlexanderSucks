@@ -1,11 +1,12 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import Container from 'react-bootstrap/Container';
 import styled from 'styled-components';
 import { Link } from "react-router-dom";
 
 const StyledNavBar = styled(Navbar)`
   border-radius: 3px;
-  margin-left: 80vh;
   sticky: top;
 `;
 
@@ -23,15 +24,26 @@ const StyledLink = styled(Link)`
       -o-transition: color .5s linear;
       transition: color .5s linear;
     }
+  &:active {
+      color: #9fa8da !important;
+    } 
 `
 
 export default function NavTopbar(){
     return (
-      <div style={{ display: 'block', width: 700, padding: 30 }}>
-      <StyledNavBar bg="#ede7f6" className='nav' fixed='top'>
-        <StyledLink to="/about">Home</StyledLink>
-        <StyledLink to="/projects">Projects</StyledLink>
-        <StyledLink to="/contact">Contact</StyledLink>
+      <div style={{ display: 'block', padding: 30 }}>
+      <StyledNavBar bg="#ede7f6" fixed='top' expand='lg'>
+        <Container>
+          <Navbar.Brand href="#home">Hanna Littlefield</Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="me-auto">
+              <StyledLink to="/about">Home</StyledLink>
+              <StyledLink to="/projects">Projects</StyledLink>
+              <StyledLink to="/contact">Contact</StyledLink>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
       </StyledNavBar>
     </div>
   );
