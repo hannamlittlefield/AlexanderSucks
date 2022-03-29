@@ -2,13 +2,52 @@ import React from 'react';
 import {FaReact, FaNodeJs, FaGithub, FaBootstrap, FaWordpress} from 'react-icons/fa'
 import { DiJavascript1, DiVisualstudio } from "react-icons/di";
 import { SiMongodb } from "react-icons/si";
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 
 
 export default function TechStack(){
     return(
         <div><h1 align="center">Tech Stack</h1>
-        <div className="techdiv">
+            <Row>
+                <Col>
+                    <FaReact/>
+                    <p>React</p> 
+                </Col>
+                <Col>
+                    <DiJavascript1/>
+                    <p>Javascript</p>
+                </Col>
+                <Col>
+                    <SiMongodb/>
+                    <p>Mongo DB</p>
+                </Col>
+                <Col>
+                    <FaNodeJs/>
+                    <p>NodeJS</p>
+                </Col>
+            </Row>
+            <Row>
+                <Col>
+                    <FaGithub/>
+                    <p>Github</p>
+                </Col>
+                <Col>
+                    <FaBootstrap/>
+                    <p>Bootstrap</p>
+                </Col>
+                <Col>
+                    <FaWordpress/>
+                    <p>Wordpress</p>
+                </Col>
+                <Col>
+                    <DiVisualstudio/>
+                    <p>VS Code</p>
+                </Col>
+            </Row>
+
+        {/*<div className="techdiv">
             <div class="techicon">
                 <FaReact/>
                 <p>React</p> 
@@ -41,7 +80,7 @@ export default function TechStack(){
                 <DiVisualstudio/>
                 <p>VS Code</p>
         </div>
-        </div>
+    </div>*/}
     </div>
     )
 }

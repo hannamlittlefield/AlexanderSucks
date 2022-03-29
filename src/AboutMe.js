@@ -12,7 +12,7 @@ export default function About(){
         <div className='About'>
         <Container>
             <Row>
-                <Col md="auto">
+                <Col>
                     <img className="projImg" src={ProfPic} alt="Hanna looking off to the side laughing"/>
                 </Col>
                 <Col>
