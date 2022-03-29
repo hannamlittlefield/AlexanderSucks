@@ -7,7 +7,8 @@ import { SiMongodb } from "react-icons/si";
 
 export default function TechStack(){
     return(
-        <div>
+        <div className="techdiv">
+        <h1>Tech Stack</h1>
             <FaReact/>
             <DiJavascript1/>
             <SiMongodb/>

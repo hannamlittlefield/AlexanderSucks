@@ -27,7 +27,6 @@ export default function About(){
                     </div>
                 </Col>
             </Row>
-            <h1>Tech Stack</h1>
             <TechStack/>
         </Container>
     </div>
