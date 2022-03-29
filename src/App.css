@@ -63,8 +63,16 @@ h1{
   background-color: #9fa8da;
   padding: 20px;
   border-radius: 10%;
+  margin-bottom: 20px;
+}
+
+.Projects h2{
+  background: url(./img/flowerbg.png);
+  width: 42vw;
+  border-radius: 10%;
   margin-bottom: 0px;
 }
+
 .Projects a:hover{
   color:#ce93d8;
 }
