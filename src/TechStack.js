@@ -10,38 +10,38 @@ import Col from 'react-bootstrap/Col';
 export default function TechStack(){
     return(
         <div><h1 align="center">Tech Stack</h1>
-            <Row>
-                <Col>
+            <Row className="techdiv">
+                <Col className="techicon">
                     <FaReact/>
                     <p>React</p> 
                 </Col>
-                <Col>
+                <Col className="techicon">
                     <DiJavascript1/>
                     <p>Javascript</p>
                 </Col>
-                <Col>
+                <Col className="techicon">
                     <SiMongodb/>
                     <p>Mongo DB</p>
                 </Col>
-                <Col>
+                <Col className="techicon">
                     <FaNodeJs/>
                     <p>NodeJS</p>
                 </Col>
             </Row>
-            <Row>
-                <Col>
+            <Row className="techdiv">
+                <Col className="techicon">
                     <FaGithub/>
                     <p>Github</p>
                 </Col>
-                <Col>
+                <Col className="techicon">
                     <FaBootstrap/>
                     <p>Bootstrap</p>
                 </Col>
-                <Col>
+                <Col className="techicon">
                     <FaWordpress/>
                     <p>Wordpress</p>
                 </Col>
-                <Col>
+                <Col className="techicon">
                     <DiVisualstudio/>
                     <p>VS Code</p>
                 </Col>
