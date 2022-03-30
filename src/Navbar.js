@@ -4,6 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import styled from 'styled-components';
 import { Link } from "react-router-dom";
+import bgimage from './img/flowerbg.png'
 
 const StyledNavBar = styled(Navbar)`
   border-radius: 3px;
@@ -14,6 +15,7 @@ const StyledLink = styled(Link)`
   color: black;
   text-decoration: none;
   font-family: 'Lobster', cursive;
+  font-size: 30px;
   &:hover {
       color: #9fa8da;
       -webkit-transition: color .5s linear;
