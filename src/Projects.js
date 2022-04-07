@@ -5,6 +5,7 @@ import TrackerPhoto from './img/exercisetracker.JPG'
 import { FaGithub, FaCodepen, } from "react-icons/fa";
 import {SiReplit} from "react-icons/si";
 import UltraApp from './UltraCrewApp.mov'
+import GBP from './img/gbpwordpress.png'
 import Image from 'react-bootstrap/Image'
 
 export default function Projects(){
@@ -13,6 +14,14 @@ export default function Projects(){
         <div id="projparagraph">
             The following is collection of projects I've built throughout my time learning to program using various tech stacks. Many of my projects are geared towards the things I love - such as fitness, running, and creativity.
         </div>
+        <h2>Beqanna Scene Generator</h2>
+        <p>
+        <Image className='projimage' src={GBP} alt="A screen capture of the Gal's best pal website" fluid rounded/><br/>
+            <a href="https://codepen.io/hannamlittlefield/pen/MWJLPgx" target="_blank" rel="noreferrer"><FaCodepen/>Codepen</a>
+            <a href="https://github.com/hannamlittlefield/BQSceneSelector/tree/master/BQSceneGen/bq-app/src" target="_blank" rel="noreferrer"><FaGithub/>Github</a><br/><br/>
+                The Gal's Best Pal website is a custom theme built for Wordpress. It was a collaborative freelance project for a local dog rescue.
+                </p>
+
             <h2>Beqanna Scene Generator</h2>
             <p>
             <Image className='projimage' src={BQphoto} alt="A screen capture of my scene generator project" fluid rounded/><br/>
