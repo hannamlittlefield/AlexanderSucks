@@ -98,6 +98,10 @@ h1{
   color:black;
 }
 
+.About a:hover{
+    color:#ce93d8;
+}
+
 .abouttext{
   margin-top: 40px;
   padding: auto;
