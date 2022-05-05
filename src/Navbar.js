@@ -9,6 +9,8 @@ import bgimage from './img/flowerbg.png'
 const StyledNavBar = styled(Navbar)`
   border-radius: 3px;
   background-image: url(./img/flowerbg.png);
+  font-family: times;
+  font-weight: bold;
 `;
 
 const StyledLink = styled(Link)`
