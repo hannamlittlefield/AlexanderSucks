@@ -204,22 +204,6 @@ h1{
     height: 40px;
 }
 
-
-#loader {
-  border: 12px solid #f3f3f3;
-  border-radius: 50%;
-  border-top: 12px solid #9fa8da;
-  width: 70px;
-  height: 70px;
-  animation: spin 1s linear infinite;
-}
-
-@keyframes spin {
-  100% {
-      transform: rotate(360deg);
-  }
-}
-
 .center {
   position: absolute;
   top: 0;
