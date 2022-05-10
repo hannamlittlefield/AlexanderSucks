@@ -222,4 +222,15 @@ h1{
     font-size: 18px;
   }
 
+  .projparagraph{
+    width: 85vw !important;
+  }
+
+  .Projects p{
+    width: 85vw;
+  }
+
+  .Projects h2{
+    width: 70vw;
+  }
 }
