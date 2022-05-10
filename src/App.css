@@ -212,3 +212,14 @@ h1{
   right: 0;
   margin: auto;
 }
+
+@media screen and (max-width: 767px) {
+  .techdiv{
+    font-size: 5px;
+  }
+
+  .techicon p{
+    font-size: 18px;
+  }
+
+}
