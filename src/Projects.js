@@ -13,7 +13,7 @@ export default function Projects(){
     return(
         <div align="center" className="Projects">
         <div id="projparagraph">
-            The following is collection of projects I've built throughout my time learning to program using various tech stacks. Many of my projects are geared towards the things I love - such as fitness, running, and creativity.
+            The following is collection of projects I've built throughout my time learning to program using various tech stacks. Many of my projects are geared towards the things I love - such as fitness, running, and creativity. asdfadsfa
         </div>
         <h2>Gal's Best Pal</h2>
         <p>
