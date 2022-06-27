@@ -6,6 +6,7 @@ import { FaGithub, FaCodepen, FaRegWindowMaximize } from "react-icons/fa";
 import {SiReplit} from "react-icons/si";
 import UltraApp from './UltraCrewApp.mov'
 import GBP from './img/GBPProj.png'
+import RMA from './img/RMAProj.png'
 import Image from 'react-bootstrap/Image'
 
 export default function Projects(){
@@ -21,13 +22,20 @@ export default function Projects(){
             <a href="www.galsbestpal.com" target="_blank" rel="noreferrer"><FaRegWindowMaximize/>Live Website</a><br/><br/>
                 The Gal's Best Pal website is a custom theme built for Wordpress. It was a collaborative freelance project for a local dog rescue.
                 </p>
-
-            <h2>Beqanna Scene Generator</h2>
+        <h2>Raynham Martial Arts</h2>
             <p>
-            <Image className='projimage' src={BQphoto} alt="A screen capture of my scene generator project" fluid rounded/><br/>
-                <a href="https://codepen.io/hannamlittlefield/pen/MWJLPgx" target="_blank" rel="noreferrer"><FaCodepen/>Codepen</a>
-                <a href="https://github.com/hannamlittlefield/BQSceneSelector/tree/master/BQSceneGen/bq-app/src" target="_blank" rel="noreferrer"><FaGithub/>Github</a><br/><br/>
-                    The Beqanna Scene Generator was one of my first personal projects. It is a simple random choice generator based on given inputs. It was built with vanilla Javascript.</p>
+                <Image className='projimage' src={RMA} alt="A screen capture of the RMA website" fluid rounded/><br/>
+                    <a href="https://github.com/hannamlittlefield/rma" target="_blank" rel="noreferrer"><FaGithub/>Github</a>
+                    <a href="https://codepen.io/hannamlittlefield/pen/OJOooGy" target="_blank" rel="noreferrer"><FaCodepen/>Codepen</a><br/><br/>
+                        Raynham Martial Arts is a custom website currently a work in progress - it is currently waiting for client feedback and resources. It was built in bootstrap. 
+            </p>          
+            <h2>Beqanna Scene Generator</h2>
+                <p>
+                    <Image className='projimage' src={BQphoto} alt="A screen capture of my scene generator project" fluid rounded/><br/>
+                        <a href="https://codepen.io/hannamlittlefield/pen/MWJLPgx" target="_blank" rel="noreferrer"><FaCodepen/>Codepen</a>
+                        <a href="https://github.com/hannamlittlefield/BQSceneSelector/tree/master/BQSceneGen/bq-app/src" target="_blank" rel="noreferrer"><FaGithub/>Github</a><br/><br/>
+                            The Beqanna Scene Generator was one of my first personal projects. It is a simple random choice generator based on given inputs. It was built with vanilla Javascript.
+                </p>
             
             <h2>Ultra Crew App</h2>
                 <p>
