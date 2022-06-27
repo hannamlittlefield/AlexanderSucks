@@ -2,7 +2,7 @@ import React from "react";
 import './App.css';
 import BQphoto from './img/BQProject.JPG'
 import TrackerPhoto from './img/exercisetracker.JPG'
-import { FaGithub, FaCodepen, } from "react-icons/fa";
+import { FaGithub, FaCodepen, FaRegWindowMaximize } from "react-icons/fa";
 import {SiReplit} from "react-icons/si";
 import UltraApp from './UltraCrewApp.mov'
 import GBP from './img/GBPProj.png'
@@ -17,7 +17,8 @@ export default function Projects(){
         <h2>Gal's Best Pal</h2>
         <p>
         <Image className='projimage' src={GBP} alt="A screen capture of the Gal's best pal website" fluid rounded/><br/>
-            <a href="https://github.com/GreenField-Org/GalsBestPalTheme" target="_blank" rel="noreferrer"><FaGithub/>Github</a><br/><br/>
+            <a href="https://github.com/GreenField-Org/GalsBestPalTheme" target="_blank" rel="noreferrer"><FaGithub/>Github</a>
+            <a href="www.galsbestpal.com" target="_blank" rel="noreferrer"><FaRegWindowMaximize/>Live Website</a><br/><br/>
                 The Gal's Best Pal website is a custom theme built for Wordpress. It was a collaborative freelance project for a local dog rescue.
                 </p>
 
