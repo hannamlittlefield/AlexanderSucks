@@ -23,7 +23,7 @@ export default function TechStack(){
                     <SiMongodb/>
                     <p>Mongo DB</p>
                 </Col>
-                <Col className="techicon">
+                <Col className="techicon no-gutters">
                     <FaNodeJs/>
                     <p>NodeJS</p>
                 </Col>
@@ -41,7 +41,7 @@ export default function TechStack(){
                     <FaWordpress/>
                     <p>Wordpress</p>
                 </Col>
-                <Col className="techicon">
+                <Col className="techicon no-gutters">
                     <DiVisualstudio/>
                     <p>VS Code</p>
                 </Col>

@@ -5,7 +5,7 @@ import TrackerPhoto from './img/exercisetracker.JPG'
 import { FaGithub, FaCodepen, } from "react-icons/fa";
 import {SiReplit} from "react-icons/si";
 import UltraApp from './UltraCrewApp.mov'
-import GBP from './img/gbpwordpress.png'
+import GBP from './img/GBPProj.png'
 import Image from 'react-bootstrap/Image'
 
 export default function Projects(){
