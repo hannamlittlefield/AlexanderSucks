@@ -1,5 +1,5 @@
 import React from 'react'
-import resume from './resume.pdf'
+import resume from './img/resume.pdf'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import ProfPic from './img/ProfilePhoto.jpg'

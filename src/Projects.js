@@ -5,8 +5,8 @@ import TrackerPhoto from './img/exercisetracker.JPG'
 import { FaGithub, FaCodepen, FaRegWindowMaximize } from "react-icons/fa";
 import {SiReplit} from "react-icons/si";
 import UltraApp from './UltraCrewApp.mov'
-import GBP from './img/GBPProj.png'
-import RMA from './img/RMAProj.png'
+import GBP from './img/GBPProj.PNG'
+import RMA from './img/RMAProj.PNG'
 import Image from 'react-bootstrap/Image'
 
 export default function Projects(){
