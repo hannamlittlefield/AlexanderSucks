@@ -56,6 +56,28 @@ export default function ZodiacQuiz(){
                     backgroundImageSrc: Africa,
                   },
                 ],
+              },
+              {
+                question: "How do you break up with people?",
+                backgroundColor: "#4E937A",
+                fontColor: "#fff",
+                answers: [
+                  {
+                    answer: "Ghost them.",
+                    resultID: 0,
+                    backgroundColor: '#4F759B'
+                  },
+                  {
+                    answer: "Plan a divorce day.",
+                    resultID: 1,
+                    backgroundColor: '#4F759B'
+                  },
+                  {
+                    answer: "I don't, I make them do it.",
+                    resultID: 2,
+                    backgroundColor: '#4F759B'
+                  },
+                ],
               },      
             {
                 question: "What do you prefer?",
@@ -65,17 +87,17 @@ export default function ZodiacQuiz(){
                   {
                     answer: "Beer",
                     resultID: 0,
-                    backgroundColor: '#B8CDF8'
+                    backgroundColor: '#4F759B'
                   },
                   {
                     answer: "Wine",
                     resultID: 1,
-                    backgroundColor: '#B8CDF8'
+                    backgroundColor: '#4F759B'
                   },
                   {
                     answer: "Scotch",
                     resultID: 2,
-                    backgroundColor: '#B8CDF8'
+                    backgroundColor: '#4F759B'
                   },
                 ],
               },
@@ -111,42 +133,42 @@ export default function ZodiacQuiz(){
                   {
                     answer: "Vindaloo",
                     resultID: 0,
-                    backgroundColor: '#B8CDF8'
+                    backgroundColor: '#4F759B'
                   },
                   {
                     answer: "Beef stew",
                     resultID: 1,
-                    backgroundColor: '#B8CDF8'
+                    backgroundColor: '#4F759B'
                   },
                   {
                     answer: "Tikka Masala",
                     resultID: 2,
-                    backgroundColor: '#B8CDF8'
+                    backgroundColor: '#4F759B'
                   },
                 ],
               },
               {
                 question: "How do you like your coffee?",
                 backgroundColor: "#4E937A",
-                fontColor:'#000', 
+                fontColor:'#fff', 
                 answers: [
                   {
-                    answer: "Room temp",
+                    answer: "Room temp.",
                     resultID: 0,
-                    backgroundColor: '#B8CDF8'
+                    backgroundColor: '#4F759B'
                   },
                   {
                     answer: "Actually cold.",
                     resultID: 1,
-                    backgroundColor: '#B8CDF8',
+                    backgroundColor: '#4F759B',
                     revealResponse: {
                       title: "I hate this, thank you. Please use your coffee warmer thing.",
                    },
                   },
                   {
-                    answer: "Hot and delicious",
+                    answer: "Hot, like how it's supposed to be.",
                     resultID: 2,
-                    backgroundColor: '#B8CDF8'
+                    backgroundColor: '#4F759B'
                   },
                 ],
               },
