@@ -12,6 +12,7 @@ import Contact from './Contact'
 import About from './AboutMe';
 import AlexanderSucks from './Alexander';
 import DessertQuiz from './DessertQuiz';
+import VacationQuiz from './VacaQuiz';
 
 const rootElement = document.getElementById("root");
 render(
@@ -24,6 +25,7 @@ render(
       <Route path="about" element={<About />} />
       <Route path="alexandersucks" element={<AlexanderSucks />} />
       <Route path="dessertquiz" element={<DessertQuiz />} />
+      <Route path="vacationquiz" element={<VacationQuiz />} />
       </Route>
     </Routes>
   </BrowserRouter>,
