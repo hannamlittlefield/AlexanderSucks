@@ -1,21 +1,18 @@
 import React from 'react'
 import { BuzzFeedQuiz } from "react-buzzfeed-quiz";
 import "react-buzzfeed-quiz/lib/styles.css";
-import Subaru from "./img/subaru.jpg";
-import Fossils from './img/fossil.jpg'
-import Nickelback from "./img/nickelback.webp";
-import BogRocks from "./img/bogrocks.JPG";
-import FakeRock from './img/antiquerock.webp';
 import TinyCarrot from './img/tinycarrot.jpg'
 import TinyRadish from './img/tinyradish.jpg';
-import TinyPotato from './tinypotato.webp';
-import Potato1 from './img/potato1.jpg';
-import Potato2 from './img/potato2.jpg';
-import Potato3 from './img/potato3.jpg';
-import Potato4 from './img/potato4.jpg';
+import TinyPotato from './img/tinypotato.webp';
+import TinyNuts from './img/tinynuts.webp'
+import Miller from './img/miller.png';
+import BlueMoon from './img/BlueMoon.jpg'
+import Steve from './img/nick.jpg.crdownload';
+import Nick from './img/steve.webp'
+import Safari from './img/safari.jpg'
+import France from './img/france.jpg'
 import Donut1 from './img/donut1.webp';
-import Donut2 from './img/donut2.jpg';
-import Donut3 from './img/donut3.jpg';
+import Vermont from './img/vermont.jpg'
 import ProfPic from './img/ProfilePhoto.jpg'
 
 export default function VacationQuiz(){
@@ -36,100 +33,88 @@ export default function VacationQuiz(){
               })
             }
             questions={[
+
               {
-                question: "What is an absolute 'no' for you?",
-                backgroundColor: "#84D2C5",
-                answers: [
-                  {
-                    answer: "Well done steak",
-                    resultID: 0,
-                  },
-                  {
-                    answer: "Socks on, missionary style",
-                    resultID: 1,
-                  },
-                  {
-                    answer: "Getting your eyeball licked",
-                    resultID: 2,
-                  },
-                ],
-              },
-              {
-                question: "What food would you choose for your wedding?",
-                backgroundColor: "#84D2C5",
+                question: "What is the best day to lump?",
+                backgroundColor: "#9D8DF1",
                 fontColor: "#000",
                 answers: [
                   {
-                    answer: "Taco Bell",
-                    backgroundColor: "#36399a",
-                    fontColor: "#ef1897",
+                    answer: "Tuesday",
                     resultID: 0,
+                    backgroundColor: '#B8CDF8'
                   },
                   {
-                    answer: "Quahogs",
-                    backgroundColor: "#999999",
-                    fontColor: "#C4BDAC",
+                    answer: "Sunday",
                     resultID: 1,
+                    backgroundColor: '#B8CDF8'
                   },
                   {
-                    answer: "A dozen passed apps",
-                    backgroundColor: "#128f8b",
-                    fontColor: "#4c5270",
+                    answer: "Every dang day.",
                     resultID: 2,
+                    backgroundColor: '#B8CDF8'
                   },
                 ],
               },
               {
-                question: "What do you do for fun?",
-                backgroundColor: "#84D2C5",
+                question: "What is the worst song ever?",
+                backgroundColor: "#9D8DF1",
                 answers: [
                   {
-                    answer: "Free climbing",
+                    answer: "1-800-Kars-For-Kids",
                     resultID: 0,
+                    backgroundColor: '#95f2d9',
+                    fontColor:"#000"
                   },
                   {
-                    answer: "Stamp collecting",
+                    answer: "Stinky Baby",
                     resultID: 1,
+                    backgroundColor: '#95f2d9',
+                    fontColor:"#000"
                   },
                   {
-                    answer: "Nothing, I am a fun sucker.",
+                    answer: "That Brother Bear song that makes everyone cry",
                     resultID: 2,
+                    backgroundColor: '#95f2d9',
+                    fontColor:"#000"
                   },
                   {
-                    answer: "Snake charming",
+                    answer: "Wonderwall",
                     resultID: 2,
+                    backgroundColor: '#95f2d9',
+                    fontColor:"#000"
                   }
                 ],
               },
               {
-                question: "What's your favorite rock?",
-                backgroundColor: "#84D2C5",
+                question: "Pick a beer to drink",
+                backgroundColor: "#9D8DF1",
+                fontColor: "#000",
                 questionRelativeToImage: "overlap",
-                imageAttribution: "Question image attribution text goes here",
                 answerArrangement: "tile",
                 answers: [
                   {
-                    answer: "Nickelback ",
+                    answer: "Miller High Life ",
                     resultID: 0,
-                    backgroundImageSrc: Nickelback,
-                    revealResponse: {
-                        title: "Holy shit. You did not actually just pick Nickelback.. I'm divorcing you.",
-                     },
+                    backgroundImageSrc: Miller,
                   },
                   {
-                    answer: "Bog rocks",
+                    answer: "... Miller High Life again",
                     resultID: 1,
-                    backgroundImageSrc: BogRocks,
+                    backgroundImageSrc: Miller,
                   },
                   {
-                    answer: "Fossils",
+                    answer: "Really, it's only just Miller High Life",
                     resultID: 2,
-                    backgroundImageSrc: Fossils,
+                    backgroundImageSrc: Miller,
                   },
                   {
-                    answer: "That one rock from the antique place",
+                    answer: "Blue Moon (:",
                     resultID: 2,
-                    backgroundImageSrc: FakeRock,
+                    backgroundImageSrc: BlueMoon,
+                    revealResponse: {
+                        title: "You promised you would never fib, Alexander!! Nice frucking try.",
+                     },
                   },
                 ],
               },
@@ -151,107 +136,91 @@ export default function VacationQuiz(){
                     resultID: 2,
                     backgroundImageSrc: TinyRadish,
                   },
-                ],
-              },
-              {
-                question: "On average, how many Subarus do you see on a mountain trip?",
-                questionRelativeToImage: "adjacent",
-                answerArrangement: "row",
-                backgroundImageSrc: Subaru,
-                answers: [
                   {
-                    answer: "104",
-                    resultID: 0,
-                  },
-                  {
-                    answer: "23",
-                    resultID: 1,
-                  },
-                  {
-                    answer: "69 (nice.)",
                     resultID: 2,
+                    backgroundImageSrc: TinyNuts,
                   },
                 ],
               },
               {
-                question: "What's your love language?",
-                backgroundColor: '#A571A5',
+                question: "What's your favorite meal?",
+                backgroundColor: "#9D8DF1",
+                fontColor:'#000', 
                 answers: [
-                    {
-                        answer: "Not saying 'lol'",
-                        backgroundColor: "#EBBFC4",
-                        resultID: 0,
-                    },
-                    {
-                        answer: "Giving people magic rocks",
-                        backgroundColor: "#EBBFC4",
-                        resultID: 0,
-                    },
-                    {
-                        answer: "Let me know when you're home safe.",
-                        backgroundColor: "#EBBFC4",
-                        resultID: 1,
-                    },
-                    {
-                        answer: "French",
-                        backgroundColor: "#EBBFC4",
-                        resultID: 1,
-                    },
-                    {
-                        answer: "One of those normal ones like physical touch",
-                        backgroundColor: "#EBBFC4",
-                        resultID: 2,
-                    },
-                    {
-                        answer: "Feeding people",
-                        backgroundColor: "#EBBFC4",
-                        resultID: 2,
-                    },
+                  {
+                    answer: "Domino's",
+                    resultID: 0,
+                    backgroundColor: '#B8CDF8'
+                  },
+                  {
+                    answer: "Microwaved hotdogs",
+                    resultID: 1,
+                    backgroundColor: '#B8CDF8'
+                  },
+                  {
+                    answer: "An Alexander Sucks",
+                    resultID: 2,
+                    backgroundColor: '#B8CDF8'
+                  },
                 ],
-            },
-            {
-                question: "Choose a potato dish.",
+              },
+              {
+                question: "Choose one to touch yourself to.",
+                backgroundColor: "#9D8DF1",
                 questionRelativeToImage: "overlap",
-                backgroundColor: "#84D2C5",
                 answerArrangement: "tile",
-                //backgroundImageSrc: BackgroundImage,
                 answers: [
                   {
                     resultID: 0,
-                    backgroundImageSrc: Potato1,
+                    backgroundImageSrc: Steve,
                   },
                   {
                     resultID: 1,
-                    backgroundImageSrc: Potato2,
+                    backgroundImageSrc: Nick,
+                  },
+                ],
+              },
+          
+            {
+                question: "If you had to eat food baby bird'ed to you, which food would you choose?",
+                backgroundColor: "#9D8DF1",
+                fontColor: "#000",
+                answers: [
+                  {
+                    answer: "Pizza",
+                    resultID: 0,
+                    backgroundColor: '#B8CDF8'
                   },
                   {
-                    resultID: 2,
-                    backgroundImageSrc: Potato3,
+                    answer: "Mashed 'tatos",
+                    resultID: 1,
+                    backgroundColor: '#B8CDF8'
                   },
                   {
+                    answer: "Chicken tendies",
                     resultID: 2,
-                    backgroundImageSrc: Potato4,
+                    backgroundColor: '#B8CDF8'
                   },
                 ],
               },
             ]}
             results={[
               {
-                title: "Congratulations! You're a cock donut!",
-                description: "Is anyone really surprised? Because I definitely am not.",
-                resultImageSrc: Donut1,
+                title: "To the mountains.",
+                description: "I've recently learned that being with me is exhausting for you. So maybe go to the mountains by yourself to relax, count Subies, take a tubby, and eat good pizza.",
+                resultImageSrc: Vermont,
                 resultID: 1,
               },
               {
-                title: "Hmm.. Looks like you're a cock donut!",
-                description: "Is anyone really surprised? Because I definitely am not.",
-                resultImageSrc: Donut2,
+                title: "France",
+                description: "Time to go eat a lot of bread, learn a love language, and eat lot of eggs.",
+                resultImageSrc: France,
                 resultID: 0,
               },
               {
-                title: "Ooh. This was a close one - but you're a cock donut!",
-                description: "Is anyone really surprised? Because I definitely am not.",
-                resultImageSrc: Donut3,
+                title: "Subaru counting safari!",
+                description: "You look like you need a long drive to no where and to shout 'subaru!' every time you see one. Good luck, sometimes they're plentiful and sometimes they're rare. (Also, I made this photo myself - you're welcome.)",
+                resultImageSrc: Safari,
                 resultID: 2,
               },
             ]}
