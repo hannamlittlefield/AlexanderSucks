@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Rancho&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
 
 body {
   text-align: center;
@@ -211,6 +212,15 @@ h1{
   left: 0;
   right: 0;
   margin: auto;
+}
+
+.dessertquiz{
+  font-family:'IBM Plex Sans', sans-serif;
+  margin-top: 60px;
+}
+
+.alexandersucks{
+  margin-top: 100px;
 }
 
 @media screen and (max-width: 767px) {
