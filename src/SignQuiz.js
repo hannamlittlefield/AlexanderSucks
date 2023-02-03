@@ -17,7 +17,7 @@ import ProfPic from './img/ProfilePhoto.jpg'
 
 export default function ZodiacQuiz(){
     return(
-        <div className='zodiacquiz'>
+        <div className='quiz' align="center">
             <BuzzFeedQuiz
             title={"I'm not saying I'm psychic, but I only need 9 questions to correctly guess your zodiac sign"}
             description={"There will be no Scorpio slander allowed in the comments, thank you very much. ♏️"}
@@ -172,6 +172,7 @@ export default function ZodiacQuiz(){
               },
             ]}
           />
+          <a href="/alexandersucks">Return to quizzes</a>
           </div>
         );
       };
