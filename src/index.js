@@ -12,6 +12,7 @@ import AlexanderSucks from './Alexander';
 import VacationQuiz from './VacaQuiz';
 import DessertQuiz from './DessertQuiz';
 import ZodiacQuiz from './SignQuiz';
+import Meow from './Meow';
 
 const rootElement = document.getElementById("root");
 render(
@@ -23,6 +24,7 @@ render(
       <Route path="dessertquiz" element={<DessertQuiz/>} />
       <Route path="vacationquiz" element={<VacationQuiz />} />
       <Route path="zodiacquiz" element={<ZodiacQuiz/>}/>
+      <Route path="meow" element={<Meow/>}/>
       </Route>
     </Routes>
   </BrowserRouter>,

@@ -17,6 +17,7 @@ import ProfPic from './img/ProfilePhoto.jpg'
 export default function VacationQuiz(){
     return(
         <div className='quiz' align="center">
+        <a href="/alexandersucks">Return to quizzes</a>
             <BuzzFeedQuiz
             title={"Where should you take your next vacation?"}
             description={"We'll reveal your dream vacation based on your answers to these questions. Ready, set, jet!"}

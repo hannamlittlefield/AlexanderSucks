@@ -28,6 +28,7 @@ h1{
 .App{
   position: relative;
   min-height: 100vh;
+  font-family: arial;
 }
 
 .header{
