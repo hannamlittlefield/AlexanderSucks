@@ -5,7 +5,7 @@ export default function Footer(){
     return(
     <div>
     <footer className="footer">
-        © 2022 Copyright: Hanna Littlefield
+        We don't do footers - 'cause Alexander hates feet (:
     </footer>
   </div>
     )
