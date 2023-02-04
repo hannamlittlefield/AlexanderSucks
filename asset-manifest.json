@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/AlexanderSucks/static/css/main.effdac6a.chunk.css",
-    "main.js": "/AlexanderSucks/static/js/main.f03ee87f.chunk.js",
-    "main.js.map": "/AlexanderSucks/static/js/main.f03ee87f.chunk.js.map",
+    "main.js": "/AlexanderSucks/static/js/main.d7df710e.chunk.js",
+    "main.js.map": "/AlexanderSucks/static/js/main.d7df710e.chunk.js.map",
     "runtime-main.js": "/AlexanderSucks/static/js/runtime-main.74583d4c.js",
     "runtime-main.js.map": "/AlexanderSucks/static/js/runtime-main.74583d4c.js.map",
     "static/css/2.09d4c6aa.chunk.css": "/AlexanderSucks/static/css/2.09d4c6aa.chunk.css",
@@ -64,6 +64,6 @@
     "static/css/2.09d4c6aa.chunk.css",
     "static/js/2.98b394f5.chunk.js",
     "static/css/main.effdac6a.chunk.css",
-    "static/js/main.f03ee87f.chunk.js"
+    "static/js/main.d7df710e.chunk.js"
   ]
 }
