@@ -9,9 +9,9 @@ import './index.css';
 import App from './App';
 
 import AlexanderSucks from './Alexander';
-import DessertQuiz from './DessertQuiz';
 import VacationQuiz from './VacaQuiz';
-import ZodiacQuiz from './SignQuiz.js';
+import DessertQuiz from './DessertQuiz';
+import ZodiacQuiz from './SignQuiz';
 
 const rootElement = document.getElementById("root");
 render(
@@ -20,9 +20,9 @@ render(
       <Route path="/" element={<App />}>
         <Route index element={<AlexanderSucks />} />
       <Route path="alexandersucks" element={<AlexanderSucks />} />
-      <Route path="dessertquiz" element={<DessertQuiz />} />
-      <Route path="vacationquiz" element={<VacationQuiz />} />
-      <Route path="zodiacquiz" element={<ZodiacQuiz/>}/>
+      <Route path="AlexanderSucks/dessertquiz" element={<DessertQuiz/>} />
+      <Route path="AlexanderSucks/vacationquiz" element={<VacationQuiz />} />
+      <Route path="AlexanderSucks/zodiacquiz" element={<ZodiacQuiz/>}/>
       </Route>
     </Routes>
   </BrowserRouter>,
