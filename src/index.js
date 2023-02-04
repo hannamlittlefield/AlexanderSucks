@@ -18,7 +18,7 @@ render(
   <HashRouter>
     <Routes>
       <Route path="/alexandersucks" element={<App />}>
-        <Route index element={<DessertQuiz />} />
+        <Route index element={<AlexanderSucks />} />
       <Route path="/alexandersucks" element={<AlexanderSucks />} />
       <Route path="/dessertquiz" element={<DessertQuiz />} />
       <Route path="/vacationquiz" element={<VacationQuiz />} />
