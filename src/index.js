@@ -20,9 +20,9 @@ render(
       <Route path="/" element={<App />}>
         <Route index element={<AlexanderSucks />} />
       <Route path="alexandersucks" element={<AlexanderSucks />} />
-      <Route path="AlexanderSucks/dessertquiz" element={<DessertQuiz/>} />
-      <Route path="AlexanderSucks/vacationquiz" element={<VacationQuiz />} />
-      <Route path="AlexanderSucks/zodiacquiz" element={<ZodiacQuiz/>}/>
+      <Route path="dessertquiz" element={<DessertQuiz/>} />
+      <Route path="vacationquiz" element={<VacationQuiz />} />
+      <Route path="zodiacquiz" element={<ZodiacQuiz/>}/>
       </Route>
     </Routes>
   </BrowserRouter>,
