@@ -10,16 +10,26 @@ import Africa from './img/africa.jpg';
 import SAmerica from './img/samerica.png';
 import Italy from './img/italy.jpg';
 
-import Safari from './img/safari.jpg'
-import France from './img/france.jpg'
-import Vermont from './img/vermont.jpg'
+import Walk from './img/walk.jpg';
+import Lump from './img/lump.JPG';
+import Wedding from './img/wedding.jpg';
+import Dancing from './img/dancing.jpg';
+
+import Edmund from './img/edmund.jpg'
+import Scorpio from './img/scorpio.webp'
+import ScorpioMeme from './img/scorpiomeme.jpg'
 import ProfPic from './img/ProfilePhoto.jpg'
+
+import Pizza1 from './img/pizza1.jpg'
+import Pizza2 from './img/pizza2.jpg'
+import Pizza3 from './img/pizza3.jpg'
+import Pizza4 from './img/pizza4.jpg'
 
 export default function ZodiacQuiz(){
     return(
         <div className='quiz' align="center">
             <BuzzFeedQuiz
-            title={"I'm not saying I'm psychic, but I only need 9 questions to correctly guess your zodiac sign"}
+            title={"I'm not saying I'm psychic, but I only need 8 questions to correctly guess your zodiac sign"}
             description={"There will be no Scorpio slander allowed in the comments, thank you very much. ♏️"}
             byline={true}
             bylineAuthor={"hanna"}
@@ -49,11 +59,17 @@ export default function ZodiacQuiz(){
                     answer: "Also potentially Africa",
                     resultID: 1,
                     backgroundImageSrc: SAmerica,
+                    revealResponse: {
+                      title: "This is hanna's Africa.",
+                   },
                   },
                   {
                     answer: "Africa's cousin?",
                     resultID: 2,
                     backgroundImageSrc: Africa,
+                    revealResponse: {
+                      title: "Okay, honestly. I went through this quiz to QA it and I had to Google Africa again because I couldn't tell if this was Africa, or if South America was Africa. (I once again chose South America first. I will learn by the end of coding this.)",
+                   },
                   },
                 ],
               },
@@ -76,6 +92,34 @@ export default function ZodiacQuiz(){
                     answer: "I don't, I make them do it.",
                     resultID: 2,
                     backgroundColor: '#4F759B'
+                  },
+                ],
+              },
+              {
+                question: "Pick an afternoon activity:",
+                backgroundColor: "#84D2C5",
+                questionRelativeToImage: "overlap",
+                answerArrangement: "tile",
+                answers: [
+                  {
+                    answer: "Going for a walk",
+                    resultID: 0,
+                    backgroundImageSrc: Walk,
+                  },
+                  {
+                    answer: "Serving a 150 person wedding.",
+                    resultID: 1,
+                    backgroundImageSrc: Wedding,
+                  },
+                  {
+                    answer: "Lump.",
+                    resultID: 2,
+                    backgroundImageSrc: Lump,
+                  },
+                  {
+                    answer: "Dancing.",
+                    resultID: 2,
+                    backgroundImageSrc: Dancing,
                   },
                 ],
               },      
@@ -172,26 +216,50 @@ export default function ZodiacQuiz(){
                   },
                 ],
               },
+              {
+                question: "Which pizza would you like?",
+                questionRelativeToImage: "overlap",
+                backgroundColor: "#4E937A",
+                answerArrangement: "tile",
+                answers: [
+                  {
+                    resultID: 0,
+                    backgroundImageSrc: Pizza1,
+                  },
+                  {
+                    resultID: 1,
+                    backgroundImageSrc: Pizza2,
+                  },
+                  {
+                    resultID: 2,
+                    backgroundImageSrc: Pizza3,
+                  },
+                  {
+                    resultID: 2,
+                    backgroundImageSrc: Pizza4,
+                  },
+                ],
+              },
             ]}
             results={[
               {
                 title: "Scorpio.",
-                description: "I've recently learned that being with me is exhausting for you. So maybe go to the mountains by yourself to relax, count Subies, take a tubby, and eat good pizza.",
-                resultImageSrc: Vermont,
+                description: "Honestly I took this tag line and title from a legit Buzzfeed quiz, so I have no idea why there would be Scorpio slander? Like, do ya'll suck that much?",
+                resultImageSrc: Scorpio,
                 resultID: 1,
               },
               {
                 title: "Uhh, definitely Scorpio.",
-                description: "Time to go eat a lot of bread, learn a love language, and eat lot of eggs.",
-                resultImageSrc: France,
-                resultID: 0,
-              },
-              {
-                title: "Could you try not being a Scorpio for two seconds?!",
-                description: "You look like you need a long drive to no where and to shout 'subaru!' every time you see one. Good luck, sometimes they're plentiful and sometimes they're rare. (Also, I made this photo myself - you're welcome.)",
-                resultImageSrc: Safari,
+                description: "Okay, so I googled some memes because I had to know why the PA tagline.. This was one of the many relatable memes that came up and I suppose I can see why people hate Scorpios now.",
+                resultImageSrc: ScorpioMeme,
                 resultID: 2,
               },
+              {
+                title: "Edmund Fitzgerald",
+                description: "Did I make up this sign? Maybe. But you specifically have the zodiac sign of the Edmund Fitzgerald, just because I did not feel like typing out another Scorpio. This is assuming you take these quizzes more than once and answer differently and see this result.",
+                resultImageSrc: Edmund,
+                resultID: 0,
+              }
             ]}
           />
           <a href="/alexandersucks">Return to quizzes</a>

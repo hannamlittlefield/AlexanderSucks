@@ -7,11 +7,10 @@ import TinyPotato from './img/tinypotato.webp';
 import TinyNuts from './img/tinynuts.webp'
 import Miller from './img/miller.png';
 import BlueMoon from './img/BlueMoon.jpg'
-import Steve from './img/nick.jpg.crdownload';
+import Steve from './img/nick.jpg';
 import Nick from './img/steve.webp'
 import Safari from './img/safari.jpg'
 import France from './img/france.jpg'
-import Donut1 from './img/donut1.webp';
 import Vermont from './img/vermont.jpg'
 import ProfPic from './img/ProfilePhoto.jpg'
 
