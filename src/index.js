@@ -3,7 +3,8 @@ import { render } from "react-dom";
 import {
   BrowserRouter,
   Routes,
-  Route
+  Route,
+  HashRouter
 } from "react-router-dom";
 import './index.css';
 import App from './App';
@@ -14,9 +15,9 @@ import ZodiacQuiz from './SignQuiz.js';
 
 const rootElement = document.getElementById("root");
 render(
-  <BrowserRouter>
+  <HashRouter>
     <Routes>
-      <Route path="/AlexanderSucks" element={<App />}>
+      <Route path="/" element={<App />}>
         <Route index element={<AlexanderSucks />} />
       <Route path="alexandersucks" element={<AlexanderSucks />} />
       <Route path="dessertquiz" element={<DessertQuiz />} />
@@ -24,6 +25,6 @@ render(
       <Route path="zodiacquiz" element={<ZodiacQuiz/>}/>
       </Route>
     </Routes>
-  </BrowserRouter>,
+    </HashRouter>,
   rootElement
 );
