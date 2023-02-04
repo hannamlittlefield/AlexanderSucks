@@ -17,7 +17,7 @@ const rootElement = document.getElementById("root");
 render(
   <HashRouter>
     <Routes>
-      <Route path="/" element={<App />}>
+      <Route path="/alexandersucks" element={<App />}>
         <Route index element={<AlexanderSucks />} />
       <Route path="/alexandersucks" element={<AlexanderSucks />} />
       <Route path="/dessertquiz" element={<DessertQuiz />} />
