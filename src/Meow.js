@@ -1,5 +1,6 @@
 import React from 'react'
 import { BuzzFeedQuiz } from "react-buzzfeed-quiz";
+import { Link } from "react-router-dom";
 import "react-buzzfeed-quiz/lib/styles.css";
 import Bird from './img/bird.jpg'
 import Hands from './img/hands.jpg'
