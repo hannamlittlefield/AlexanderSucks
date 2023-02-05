@@ -12,6 +12,7 @@ body {
 
 a {
   padding: 5px;
+  text-decoration: none;
 }
 
 h2{
@@ -69,11 +70,9 @@ h1{
 
 .lovehan{
   position: relative;
-  top: 30%;  
   width: 20px;
   margin: 0 auto;
   border-right: 2px solid rgba(255,255,255,.75);
-  font-size: 180%;
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
@@ -82,6 +81,11 @@ h1{
 
 .lovenote{
   margin-top: 60px;
+  width: 400px;
+}
+
+.projparagraph{
+  width: 400px;
 }
 
 /* Animation */

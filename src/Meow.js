@@ -1,7 +1,6 @@
 import React from 'react'
 import { BuzzFeedQuiz } from "react-buzzfeed-quiz";
 import "react-buzzfeed-quiz/lib/styles.css";
-import Subaru from "./img/subaru.jpg";
 import Bird from './img/bird.jpg'
 import Hands from './img/hands.jpg'
 import Toy from './img/toy.webp'
@@ -167,6 +166,27 @@ export default function Meow(){
                   {
                     resultID: 2,
                     backgroundImageSrc: Sushi,
+                  },
+                ],
+              },
+              {
+                question: "Choose an alignment",
+                backgroundColor: "#A2AD91",
+                answers: [
+                  {
+                    answer: "Chaotic Neutral",
+                    resultID: 0,
+                    backgroundColor: '#B7918C'
+                  },
+                  {
+                    answer: "Lawful Good",
+                    resultID: 1,
+                    backgroundColor: '#B7918C'
+                  },
+                  {
+                    answer: "Lawful Evil",
+                    resultID: 2,
+                    backgroundColor: '#B7918C',
                   },
                 ],
               },
