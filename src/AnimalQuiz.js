@@ -35,6 +35,32 @@ export default function AnimalLady(){
             }
             questions={[
                 {
+                    question: "What is a scrumble?",
+                    backgroundColor: "#006E90",
+                    answers: [
+                      {
+                        answer: "A German breakfast dish with bleu cheese and eggs.",
+                        resultID: 0,
+                        backgroundColor: '#ADCAD6'
+                      },
+                      {
+                        answer: "When a cat wriggles all over you with love.",
+                        resultID: 2,
+                        backgroundColor: '#ADCAD6'
+                      },
+                      {
+                        answer: "A type of slap fight where you don't try to actually hurt eachother.",
+                        resultID: 2,
+                        backgroundColor: '#ADCAD6'
+                      },
+                      {
+                        answer: "A race up a mountain.",
+                        resultID: 2,
+                        backgroundColor: '#ADCAD6'
+                      },
+                    ],
+                  },
+                {
                     question: "Which of these is the infamous cheeseburger bird?",
                     backgroundColor: "#006E90",
                     answers: [
@@ -105,6 +131,32 @@ export default function AnimalLady(){
                     ],
                   },
                   {
+                    question: "When can your partner bring home any wildlife?",
+                    backgroundColor: "#006E90",
+                    answers: [
+                      {
+                        answer: "Whenever they find something cute",
+                        resultID: 0,
+                        backgroundColor: '#ADCAD6'
+                      },
+                      {
+                        answer: "After their poaching trip",
+                        resultID: 1,
+                        backgroundColor: '#ADCAD6'
+                      },
+                      {
+                        answer: "When they're a certified wildlife rehabilitator (:",
+                        resultID: 2,
+                        backgroundColor: '#ADCAD6'
+                      },
+                      {
+                        answer: "When they accidentally run it over",
+                        resultID: 1,
+                        backgroundColor: '#ADCAD6'
+                      }
+                    ],
+                  },
+                  {
                     question: "Which animal is this?",
                     questionRelativeToImage: "adjacent",
                     backgroundColor: "#006E90",
@@ -117,7 +169,7 @@ export default function AnimalLady(){
                       },
                       {
                         answer: "Dall sheep",
-                        resultID: 1,
+                        resultID: 2
                       },
                       {
                         answer: "Highland cow",
@@ -161,21 +213,18 @@ export default function AnimalLady(){
             ]}
             results={[
               {
-                title: "Peebutter",
-                description: "You're the OG queen. I hope every day you hear a 'hanna loves you' whispered into your ear. You are my most favorite and I miss you.",
-                resultImageSrc: Peebs,
+                title: "Part time bird watcher",
+                description: "You've prolly spent some time out in nature, but not much. Maybe brush up on your Royal Pizza calendar animals and spend a bit more time outside.",
                 resultID: 1,
               },
               {
-                title: "Chicky Pot Pie",
-                description: "I'm assuming you really like to scream a lot, and ocassionally claw your way up peoples' bodies to sit on their shoulders. You're also an amazing programming assistant and are great company through potato peeling meetings. You're very snuggly, but will attack unprovoked.",
-                resultImageSrc: Chicken,
+                title: "Weenie Hut Junior",
+                description: "Honestly, have you even ever stepped outside? You might need some boyscouts, or like.. a trail run or something..",
                 resultID: 0,
               },
               {
-                title: "Turkish",
-                description: "You're a little sunbathing baby with a penchant for randomly darting off the bed out of nowhere to do god knows what. You remind me of a little reeses cup and I just wanna eat your little ears.",
-                resultImageSrc: Turkey,
+                title: "Wildlife Rehabilitator",
+                description: "Holy cow, you're basically on par with someone who is certified to rehab wildlife! Absolutely amazing. I hope you bring home all the abandoned babies and wounded soldiers. Excellent job knowing so much about wildlife!.",
                 resultID: 2,
               },
             ]}
