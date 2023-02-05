@@ -28,7 +28,7 @@ import Pizza4 from './img/pizza4.jpg'
 export default function ZodiacQuiz(){
     return(
         <div className='quiz' align="center">
-        <a href="/alexandersucks">Return to quizzes</a>
+        <Link to="/alexandersucks">Return to quizzes</Link>
             <BuzzFeedQuiz
             title={"I'm not saying I'm psychic, but I only need 8 questions to correctly guess your zodiac sign"}
             description={"There will be no Scorpio slander allowed in the comments, thank you very much. ♏️"}

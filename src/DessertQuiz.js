@@ -22,7 +22,7 @@ import ProfPic from './img/ProfilePhoto.jpg'
 export default function DessertQuiz(){
     return(
         <div className='quiz' align="center">
-        <a href="/alexandersucks">Return to quizzes</a>
+        <Link to="/alexandersucks">Return to quizzes</Link>
             <BuzzFeedQuiz
             title={"What kind of dessert are you?"}
             description={"Everyone has a dessert that matches their personality - what's yours?!"}

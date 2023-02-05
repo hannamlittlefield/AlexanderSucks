@@ -17,7 +17,7 @@ import ProfPic from './img/ProfilePhoto.jpg'
 export default function Meow(){
     return(
         <div className='quiz' align="center">
-        <a href="/alexandersucks">Return to quizzes</a>
+        <Link to="/alexandersucks">Return to quizzes</Link>
             <BuzzFeedQuiz
             title={"What kitkat are you?"}
             description={"Deep down, everybody wants to be a cat."}

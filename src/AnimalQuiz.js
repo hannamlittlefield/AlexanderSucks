@@ -18,7 +18,7 @@ import Titmouse from './img/titmouse.webp';
 export default function AnimalLady(){
     return(
         <div className='quiz' align="center">
-        <a href="/alexandersucks">Return to quizzes</a>
+        <Link to="/alexandersucks">Return to quizzes</Link>
             <BuzzFeedQuiz
             title={"How well informed are you on your animal species?"}
             description={"We'll put your animal smarts to the test with this quiz!"}
