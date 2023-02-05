@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/AlexanderSucks/static/css/main.0efc498e.chunk.css",
+    "main.css": "/AlexanderSucks/static/css/main.bf373755.chunk.css",
     "main.js": "/AlexanderSucks/static/js/main.e67719d5.chunk.js",
     "main.js.map": "/AlexanderSucks/static/js/main.e67719d5.chunk.js.map",
     "runtime-main.js": "/AlexanderSucks/static/js/runtime-main.74583d4c.js",
@@ -10,7 +10,7 @@
     "static/js/2.66f5eea9.chunk.js.map": "/AlexanderSucks/static/js/2.66f5eea9.chunk.js.map",
     "index.html": "/AlexanderSucks/index.html",
     "static/css/2.09d4c6aa.chunk.css.map": "/AlexanderSucks/static/css/2.09d4c6aa.chunk.css.map",
-    "static/css/main.0efc498e.chunk.css.map": "/AlexanderSucks/static/css/main.0efc498e.chunk.css.map",
+    "static/css/main.bf373755.chunk.css.map": "/AlexanderSucks/static/css/main.bf373755.chunk.css.map",
     "static/js/2.66f5eea9.chunk.js.LICENSE.txt": "/AlexanderSucks/static/js/2.66f5eea9.chunk.js.LICENSE.txt",
     "static/media/BlueMoon.2c236d8a.jpg": "/AlexanderSucks/static/media/BlueMoon.2c236d8a.jpg",
     "static/media/Fav1.a81b5a32.jpg": "/AlexanderSucks/static/media/Fav1.a81b5a32.jpg",
@@ -83,7 +83,7 @@
     "static/js/runtime-main.74583d4c.js",
     "static/css/2.09d4c6aa.chunk.css",
     "static/js/2.66f5eea9.chunk.js",
-    "static/css/main.0efc498e.chunk.css",
+    "static/css/main.bf373755.chunk.css",
     "static/js/main.e67719d5.chunk.js"
   ]
 }
