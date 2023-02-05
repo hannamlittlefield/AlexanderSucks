@@ -11,9 +11,7 @@ body {
 }
 
 a {
-  padding: 5px;
   text-decoration: none;
-  color: #ADCAD6
 }
 
 h2{
@@ -87,7 +85,7 @@ h1{
 }
 
 .projparagraph{
-  width: 400px;
+  width: 300px;
 }
 
 /* Animation */
