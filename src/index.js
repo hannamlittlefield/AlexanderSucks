@@ -27,6 +27,7 @@ render(
       <Route path="zodiacquiz" element={<ZodiacQuiz/>}/>
       <Route path="meow" element={<Meow/>}/>
       <Route path="ididit" element={<AnimalLady/>}/>
+      <Route path="areweserious" element={<BuffyQuiz/>}/>
       </Route>
     </Routes>
   </BrowserRouter>,

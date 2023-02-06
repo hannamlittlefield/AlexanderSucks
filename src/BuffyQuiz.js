@@ -13,7 +13,7 @@ import Junco from './img/junco.webp';
 import Sparrow from './img/sparrow.webp';
 import Titmouse from './img/titmouse.webp';
 
-export default function AnimalLady(){
+export default function BuffyQuiz(){
     return(
         <div className='quiz' align="center">
         <Link to="/alexandersucks">Return to quizzes</Link>
