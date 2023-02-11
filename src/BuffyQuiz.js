@@ -38,17 +38,17 @@ export default function BuffyQuiz(){
                     answers: [
                       {
                         answer: "Rogue",
-                        resultID: 0,
+                        resultID: 2,
                         backgroundColor: '#ADCAD6'
                       },
                       {
                         answer: "Barbarian",
-                        resultID: 2,
+                        resultID: 3,
                         backgroundColor: '#ADCAD6'
                       },
                       {
                         answer: "Wizard",
-                        resultID: 2,
+                        resultID: 1,
                         backgroundColor: '#ADCAD6'
                       },
                     ],
@@ -59,7 +59,7 @@ export default function BuffyQuiz(){
                     answers: [
                       {
                         answer: "Vampire",
-                        resultID: 0,
+                        resultID: 2,
                         backgroundColor: '#ADCAD6'
                       },
                       {
@@ -69,12 +69,12 @@ export default function BuffyQuiz(){
                       },
                       {
                         answer: "Overalls",
-                        resultID: 2,
+                        resultID: 1,
                         backgroundColor: '#ADCAD6'
                       },
                       {
                         answer: "Being a basic bitch",
-                        resultID: 2,
+                        resultID: 3,
                         backgroundColor: '#ADCAD6'
                       },
                     ],
@@ -85,7 +85,7 @@ export default function BuffyQuiz(){
                     answers: [
                       {
                         answer: "10",
-                        resultID: 0,
+                        resultID: 2,
                         backgroundColor: '#ADCAD6'
                       },
                       {
@@ -95,7 +95,7 @@ export default function BuffyQuiz(){
                       },
                       {
                         answer: "20",
-                        resultID: 2,
+                        resultID: 3,
                         backgroundColor: '#ADCAD6'
                       },
                       {
@@ -111,22 +111,22 @@ export default function BuffyQuiz(){
                     answers: [
                       {
                         answer: "Sasha",
-                        resultID: 0,
+                        resultID: 1,
                         backgroundColor: '#ADCAD6'
                       },
                       {
                         answer: "Xander",
-                        resultID: 1,
-                        backgroundColor: '#ADCAD6'
-                      },
-                      {
-                        answer: "Scudder",
                         resultID: 2,
                         backgroundColor: '#ADCAD6'
                       },
                       {
+                        answer: "Scudder",
+                        resultID: 3,
+                        backgroundColor: '#ADCAD6'
+                      },
+                      {
                         answer: "Cock Donut",
-                        resultID: 1,
+                        resultID: 2,
                         backgroundColor: '#ADCAD6'
                       }
                     ],
@@ -137,22 +137,22 @@ export default function BuffyQuiz(){
                     answers: [
                       {
                         answer: "Winter",
-                        resultID: 0,
+                        resultID: 2,
                       },
                       {
                         answer: "Spring",
-                        resultID: 2,
+                        resultID: 1,
                         revealResponse: {
                             title: "If you don't choose spring, you are fibbing.",
                          },
                       },
                       {
                         answer: "Summer",
-                        resultID: 2,
+                        resultID: 3,
                       },
                       {
                         answer: "Fall",
-                        resultID: 2,
+                        resultID: 3,
                       },
                     ],
                   },
@@ -162,7 +162,7 @@ export default function BuffyQuiz(){
                     answers: [
                       {
                         answer: "A nightclub",
-                        resultID: 0,
+                        resultID: 3,
                         backgroundColor: '#ADCAD6'
                       },
                       {
@@ -177,7 +177,7 @@ export default function BuffyQuiz(){
                       },
                       {
                         answer: "A 3-in-1 club/coffee/bar thing",
-                        resultID: 1,
+                        resultID: 3,
                         backgroundColor: '#ADCAD6'
                       }
                     ],
@@ -185,19 +185,19 @@ export default function BuffyQuiz(){
             ]}
             results={[
               {
-                title: "Part time bird watcher",
+                title: "Willow",
                 description: "You've prolly spent some time out in nature, but not much. Maybe brush up on your Royal Pizza calendar animals and spend a bit more time outside.",
                 resultID: 1,
               },
               {
-                title: "Weenie Hut Junior",
+                title: "Xander",
                 description: "Honestly, have you even ever stepped outside? You might need some boyscouts, or like.. a trail run or something..",
-                resultID: 0,
+                resultID: 2,
               },
               {
-                title: "Wildlife Rehabilitator",
+                title: "Buffy",
                 description: "Holy cow, you're basically on par with someone who is certified to rehab wildlife! Absolutely amazing. I hope you bring home all the abandoned babies and wounded soldiers. Excellent job knowing so much about wildlife!",
-                resultID: 2,
+                resultID: 3,
               },
             ]}
           />
