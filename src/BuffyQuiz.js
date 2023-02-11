@@ -18,8 +18,8 @@ export default function BuffyQuiz(){
         <div className='quiz' align="center">
         <Link to="/alexandersucks">Return to quizzes</Link>
             <BuzzFeedQuiz
-            title={"How well informed are you on your animal species?"}
-            description={"We'll put your animal smarts to the test with this quiz!"}
+            title={"Everyone has a Buffy the Vampire Slayer character that matches their personality, which one is yours?"}
+            description={"In every generation there is a chosen one...to take this quiz, and right now that's you!"}
             byline={true}
             bylineAuthor={"hanna"}
             bylineAvatarImageSrc={ProfPic}
@@ -33,176 +33,150 @@ export default function BuffyQuiz(){
             }
             questions={[
                 {
-                    question: "What is a scrumble?",
+                    question: "Choose a D&D class",
                     backgroundColor: "#006E90",
                     answers: [
                       {
-                        answer: "A German breakfast dish with bleu cheese and eggs.",
+                        answer: "Rogue",
                         resultID: 0,
                         backgroundColor: '#ADCAD6'
                       },
                       {
-                        answer: "When a cat wriggles all over you with love.",
+                        answer: "Barbarian",
                         resultID: 2,
                         backgroundColor: '#ADCAD6'
                       },
                       {
-                        answer: "A type of slap fight where you don't try to actually hurt eachother.",
+                        answer: "Wizard",
                         resultID: 2,
                         backgroundColor: '#ADCAD6'
-                      },
-                      {
-                        answer: "A race up a mountain.",
-                        resultID: 2,
-                        backgroundColor: '#ADCAD6'
-                      },
-                    ],
-                  },
-                {
-                    question: "Which of these is the infamous cheeseburger bird?",
-                    backgroundColor: "#006E90",
-                    answers: [
-                      {
-                        backgroundImageSrc: Sparrow,
-                        resultID: 1,
-                      },
-                      {
-                        backgroundImageSrc: Titmouse,
-                        resultID: 1,
-                      },
-                      {
-                        backgroundImageSrc: Chickadee,
-                        resultID: 1,
-                      },
-                      {
-                        backgroundImageSrc: Junco,
-                        resultID: 1,
                       },
                     ],
                   },
                   {
-                    question: "What fish species will eat chewed gum?",
+                    question: "Which do you like best?",
                     backgroundColor: "#006E90",
                     answers: [
                       {
-                        answer: "Striped bass",
+                        answer: "Vampire",
                         resultID: 0,
                         backgroundColor: '#ADCAD6'
                       },
                       {
-                        answer: "Brook trout",
-                        resultID: 1,
-                        backgroundColor: '#ADCAD6'
-                      },
-                      {
-                        answer: "Weird, desperate Massa fish",
+                        answer: "Werewolf",
                         resultID: 2,
                         backgroundColor: '#ADCAD6'
                       },
                       {
-                        answer: "Pickerel",
+                        answer: "Overalls",
+                        resultID: 2,
+                        backgroundColor: '#ADCAD6'
+                      },
+                      {
+                        answer: "Being a basic bitch",
+                        resultID: 2,
+                        backgroundColor: '#ADCAD6'
+                      },
+                    ],
+                  },
+                  {
+                    question: "How many episodes does it take you to crochet a blanket?",
+                    backgroundColor: "#006E90",
+                    answers: [
+                      {
+                        answer: "10",
+                        resultID: 0,
+                        backgroundColor: '#ADCAD6'
+                      },
+                      {
+                        answer: "15, but you half pay attention",
+                        resultID: 1,
+                        backgroundColor: '#ADCAD6'
+                      },
+                      {
+                        answer: "20",
+                        resultID: 2,
+                        backgroundColor: '#ADCAD6'
+                      },
+                      {
+                        answer: "None, because you refuse to watch.",
                         resultID: 1,
                         backgroundColor: '#ADCAD6'
                       }
                     ],
                   },
                   {
-                    question: "Which squirrel would be the best for face-hands?",
+                    question: "Choose a nickname",
                     backgroundColor: "#006E90",
                     answers: [
                       {
-                        backgroundImageSrc: Hands1,
-                        resultID: 1,
-                      },
-                      {
-                        backgroundImageSrc: Hands2,
-                        resultID: 1,
-                      },
-                      {
-                        backgroundImageSrc: Hands3,
-                        resultID: 1,
-                      },
-                      {
-                        backgroundImageSrc: Hands4,
-                        resultID: 1,
-                      },
-                    ],
-                  },
-                  {
-                    question: "When can your partner bring home any wildlife?",
-                    backgroundColor: "#006E90",
-                    answers: [
-                      {
-                        answer: "Whenever they find something cute",
+                        answer: "Sasha",
                         resultID: 0,
                         backgroundColor: '#ADCAD6'
                       },
                       {
-                        answer: "After their poaching trip",
+                        answer: "Xander",
                         resultID: 1,
                         backgroundColor: '#ADCAD6'
                       },
                       {
-                        answer: "When they're a certified wildlife rehabilitator (:",
+                        answer: "Scudder",
                         resultID: 2,
                         backgroundColor: '#ADCAD6'
                       },
                       {
-                        answer: "When they accidentally run it over",
+                        answer: "Cock Donut",
                         resultID: 1,
                         backgroundColor: '#ADCAD6'
                       }
                     ],
                   },
                   {
-                    question: "Which animal is this?",
-                    questionRelativeToImage: "adjacent",
+                    question: "What's your favorite season?",
                     backgroundColor: "#006E90",
-                    answerArrangement: "row",
-                    backgroundImageSrc: Dall,
                     answers: [
                       {
-                        answer: "Tiny alpaca",
+                        answer: "Winter",
                         resultID: 0,
                       },
                       {
-                        answer: "Dall sheep",
-                        resultID: 2
-                      },
-                      {
-                        answer: "Highland cow",
-                        resultID: 2,
-                      },
-                      {
-                        answer: "Mountain goat",
+                        answer: "Spring",
                         resultID: 2,
                         revealResponse: {
-                            title: "I was really convinced it was a mtn goat.",
+                            title: "If you don't choose spring, you are fibbing.",
                          },
+                      },
+                      {
+                        answer: "Summer",
+                        resultID: 2,
+                      },
+                      {
+                        answer: "Fall",
+                        resultID: 2,
                       },
                     ],
                   },
                   {
-                    question: "What is the highest poaching demographic?",
+                    question: "Where would you like to spend Friday night?",
                     backgroundColor: "#006E90",
                     answers: [
                       {
-                        answer: "Old white men",
+                        answer: "A nightclub",
                         resultID: 0,
                         backgroundColor: '#ADCAD6'
                       },
                       {
-                        answer: "African war lords",
+                        answer: "A coffee shop",
                         resultID: 1,
                         backgroundColor: '#ADCAD6'
                       },
                       {
-                        answer: "37 year old white women",
+                        answer: "A bar",
                         resultID: 2,
                         backgroundColor: '#ADCAD6'
                       },
                       {
-                        answer: "Egg connoisseurs",
+                        answer: "A 3-in-1 club/coffee/bar thing",
                         resultID: 1,
                         backgroundColor: '#ADCAD6'
                       }

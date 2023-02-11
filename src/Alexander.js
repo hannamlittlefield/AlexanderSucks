@@ -13,6 +13,7 @@ export default function Alex(){
         <ul><Link to="/zodiacquiz">Can I guess your zodiac sign?</Link></ul>
         <ul><Link to="/meow">Which cat are you?</Link>
         <ul><Link to="/ididit">How well do you know your wildlife?</Link></ul>
+        <ul><Link to="/whyyyyy">Which Buffy character are you?</Link></ul>
         </ul>
         <p className="lovenote">Dear Alexander, I hope you enjoy these, laugh a little bit, and have fun. They were really enjoyable to make, and I had a great time coding for fun and not for clients or work.Happy discount chocolate day, babes. I adore you, I love you, and you are my favorite.</p>
         <p>Love,</p>

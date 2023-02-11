@@ -14,6 +14,7 @@ import DessertQuiz from './DessertQuiz';
 import ZodiacQuiz from './SignQuiz';
 import Meow from './Meow';
 import AnimalLady from './AnimalQuiz';
+import BuffyQuiz from './BuffyQuiz';
 
 const rootElement = document.getElementById("root");
 render(
@@ -27,6 +28,7 @@ render(
       <Route path="zodiacquiz" element={<ZodiacQuiz/>}/>
       <Route path="meow" element={<Meow/>}/>
       <Route path="ididit" element={<AnimalLady/>}/>
+      <Route path="whyyyyy" element={<BuffyQuiz/>}/>
       </Route>
     </Routes>
   </BrowserRouter>,
