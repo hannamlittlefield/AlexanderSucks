@@ -39,17 +39,17 @@ export default function BuffyQuiz(){
                       {
                         answer: "Rogue",
                         resultID: 2,
-                        backgroundColor: '#ADCAD6'
+                        backgroundColor: '#4C6663'
                       },
                       {
                         answer: "Barbarian",
                         resultID: 3,
-                        backgroundColor: '#ADCAD6'
+                        backgroundColor: '#4C6663'
                       },
                       {
                         answer: "Wizard",
                         resultID: 1,
-                        backgroundColor: '#ADCAD6'
+                        backgroundColor: '#4C6663'
                       },
                     ],
                   },
@@ -60,22 +60,22 @@ export default function BuffyQuiz(){
                       {
                         answer: "Vampire",
                         resultID: 2,
-                        backgroundColor: '#ADCAD6'
+                        backgroundColor: '#4C6663'
                       },
                       {
                         answer: "Werewolf",
                         resultID: 2,
-                        backgroundColor: '#ADCAD6'
+                        backgroundColor: '#4C6663'
                       },
                       {
                         answer: "Overalls",
                         resultID: 1,
-                        backgroundColor: '#ADCAD6'
+                        backgroundColor: '#4C6663'
                       },
                       {
                         answer: "Being a basic bitch",
                         resultID: 3,
-                        backgroundColor: '#ADCAD6'
+                        backgroundColor: '#4C6663'
                       },
                     ],
                   },
@@ -86,22 +86,22 @@ export default function BuffyQuiz(){
                       {
                         answer: "10",
                         resultID: 2,
-                        backgroundColor: '#ADCAD6'
+                        backgroundColor: '#4C6663'
                       },
                       {
                         answer: "15, but you half pay attention",
                         resultID: 1,
-                        backgroundColor: '#ADCAD6'
+                        backgroundColor: '#4C6663'
                       },
                       {
                         answer: "20",
                         resultID: 3,
-                        backgroundColor: '#ADCAD6'
+                        backgroundColor: '#4C6663'
                       },
                       {
                         answer: "None, because you refuse to watch.",
                         resultID: 1,
-                        backgroundColor: '#ADCAD6'
+                        backgroundColor: '#4C6663'
                       }
                     ],
                   },
@@ -112,22 +112,22 @@ export default function BuffyQuiz(){
                       {
                         answer: "Sasha",
                         resultID: 1,
-                        backgroundColor: '#ADCAD6'
+                        backgroundColor: '#4C6663'
                       },
                       {
                         answer: "Xander",
                         resultID: 2,
-                        backgroundColor: '#ADCAD6'
+                        backgroundColor: '#4C6663'
                       },
                       {
                         answer: "Scudder",
                         resultID: 3,
-                        backgroundColor: '#ADCAD6'
+                        backgroundColor: '#4C6663'
                       },
                       {
                         answer: "Cock Donut",
                         resultID: 2,
-                        backgroundColor: '#ADCAD6'
+                        backgroundColor: '#4C6663'
                       }
                     ],
                   },
@@ -138,21 +138,26 @@ export default function BuffyQuiz(){
                       {
                         answer: "Winter",
                         resultID: 2,
+                        backgroundColor: '#4C6663'
                       },
                       {
                         answer: "Spring",
                         resultID: 1,
+                        backgroundColor: '#4C6663',
                         revealResponse: {
                             title: "If you don't choose spring, you are fibbing.",
+                            
                          },
                       },
                       {
                         answer: "Summer",
+                        backgroundColor: '#4C6663',
                         resultID: 3,
                       },
                       {
                         answer: "Fall",
                         resultID: 3,
+                        backgroundColor: '#4C6663'
                       },
                     ],
                   },
@@ -163,22 +168,22 @@ export default function BuffyQuiz(){
                       {
                         answer: "A nightclub",
                         resultID: 3,
-                        backgroundColor: '#ADCAD6'
+                        backgroundColor: '#4C6663'
                       },
                       {
                         answer: "A coffee shop",
                         resultID: 1,
-                        backgroundColor: '#ADCAD6'
+                        backgroundColor: '#4C6663'
                       },
                       {
                         answer: "A bar",
                         resultID: 2,
-                        backgroundColor: '#ADCAD6'
+                        backgroundColor: '#4C6663'
                       },
                       {
                         answer: "A 3-in-1 club/coffee/bar thing",
                         resultID: 3,
-                        backgroundColor: '#ADCAD6'
+                        backgroundColor: '#4C6663'
                       }
                     ],
                   },
@@ -186,17 +191,17 @@ export default function BuffyQuiz(){
             results={[
               {
                 title: "Willow",
-                description: "You've prolly spent some time out in nature, but not much. Maybe brush up on your Royal Pizza calendar animals and spend a bit more time outside.",
+                description: "You have great style and are insanely cute.",
                 resultID: 1,
               },
               {
                 title: "Xander",
-                description: "Honestly, have you even ever stepped outside? You might need some boyscouts, or like.. a trail run or something..",
+                description: "You have the best nickname ever.",
                 resultID: 2,
               },
               {
                 title: "Buffy",
-                description: "Holy cow, you're basically on par with someone who is certified to rehab wildlife! Absolutely amazing. I hope you bring home all the abandoned babies and wounded soldiers. Excellent job knowing so much about wildlife!",
+                description: "You're  literally the worst character on the show and so annoying. You make a lot of dumb mistakes and are annoying, sorrryy.",
                 resultID: 3,
               },
             ]}
