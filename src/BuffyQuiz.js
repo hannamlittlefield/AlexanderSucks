@@ -2,16 +2,7 @@ import React from 'react'
 import { BuzzFeedQuiz } from "react-buzzfeed-quiz";
 import { Link } from "react-router-dom";
 import "react-buzzfeed-quiz/lib/styles.css";
-import Hands1 from './img/hands1.jpg'
-import Hands2 from './img/hands2.jpg'
-import Hands3 from './img/hands3.jpg'
-import Hands4 from './img/hands4.jpg'
-import Dall from './img/dall.jpg'
 import ProfPic from './img/ProfilePhoto.jpg'
-import Chickadee from './img/chickadee.jpg';
-import Junco from './img/junco.webp';
-import Sparrow from './img/sparrow.webp';
-import Titmouse from './img/titmouse.webp';
 
 export default function BuffyQuiz(){
     return(
